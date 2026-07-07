@@ -19,8 +19,7 @@ built for **Windows** (x64); other platforms may follow.
 
 1. Unpack the ZIP, e.g. into `%USERPROFILE%\bin\quickSnapper`.
 2. Add that directory to your `PATH`.
-3. Run `qs.cmd` (or just `qs`, once it's on your `PATH`) from a new
-   command prompt:
+3. Run `qs` from a new command prompt:
 
    ```
    qs --version
@@ -31,21 +30,20 @@ built for **Windows** (x64); other platforms may follow.
 4. Swap the bundled demo data (`data\qs_demo.yaml`) for your own, e.g.:
 
    ```
-   qs.cmd --db config\quickSnapper.ini --set settings.data_file qs_data.yaml
+   qs --db config\quickSnapper.ini --set settings.data_file qs_data.yaml
    ```
 
 ## Package contents
 
 ```
 quickSnapper/
-  ├── qs.cmd                   wrapper / entry point
-  ├── quickSnapper.exe         the tool (standalone, no Python install needed)
+  ├── qs.exe                    the tool (standalone, no Python install needed)
   ├── config/
-  │   └── quickSnapper.ini     program settings
+  │   └── quickSnapper.ini      program settings
   ├── data/
-  │   └── qs_demo.yaml         demo data (shipped default)
+  │   └── qs_demo.yaml          demo data (shipped default)
   └── extensions/
-      └── doskeys.cmd          DOSKEY aliases (Windows)
+      └── doskeys.cmd           DOSKEY aliases (Windows)
 ```
 
 ## License
@@ -54,4 +52,4 @@ quickSnapper/
 
 ---
 
-Version 0.8.8 — Tom Gries
+Version 0.8.9 — Tom Gries
