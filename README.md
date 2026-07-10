@@ -12,14 +12,29 @@ It does not contain the Python source code.
 
 ## Download
 
-Grab the latest ZIP from the [Releases](../../releases) page. Currently
-built for **Windows** (x64); other platforms may follow.
+Grab the ZIP for your platform from the [Releases](../../releases) page:
+
+- **Windows** x64 (`qs.exe`)
+- **macOS** Apple Silicon (`qs`)
+- **Linux** x64 (`qs`)
 
 ## Installation
 
-1. Unpack the ZIP, e.g. into `%USERPROFILE%\bin\quickSnapper`.
-2. Add that directory to your `PATH`.
-3. Run `qs` from a new command prompt:
+1. Unzip the archive anywhere (e.g. Downloads).
+2. Run the bundled interactive installer from the unpacked folder:
+
+   ```
+   install.cmd        (Windows, in a command prompt)
+   ./install.sh       (macOS/Linux)
+   ```
+
+   It asks for the install location (platform default, home-bin variant
+   or a custom path), optionally adds a PATH entry, and can create the
+   optional aliases `qsl`, `qse`, `qsd` — individually selectable.
+   Alternatively, set everything up by hand: see `docs/README.md` in the
+   package.
+
+3. Open a new terminal and try:
 
    ```
    qs --version
@@ -27,24 +42,39 @@ built for **Windows** (x64); other platforms may follow.
    qs email
    ```
 
-4. Swap the bundled demo data (`data\qs_demo.yaml`) for your own, e.g.:
+4. Keep your own data in `qs_data.yaml` — it is created automatically
+   from a built-in template on first access and never touched by
+   updates. The bundled `data/qs_demo.yaml` is a playground; activate it
+   temporarily with:
 
    ```
-   qs --db config\quickSnapper.ini --set settings.data_file qs_data.yaml
+   qs --db ../config/quickSnapper.ini --set settings.data_file qs_demo.yaml
    ```
 
 ## Package contents
 
 ```
-quickSnapper/
-  ├── qs.exe                    the tool (standalone, no Python install needed)
+quickSnapper-<platform>-vX.Y.Z/
+  ├── qs.exe  or  qs            the tool (standalone, no Python install needed)
+  ├── install.cmd / install.sh  interactive installer (per platform)
+  ├── LICENSE                   MIT license
   ├── config/
   │   └── quickSnapper.ini      program settings
   ├── data/
-  │   └── qs_demo.yaml          demo data (shipped default)
-  └── extensions/
-      └── doskeys.cmd           DOSKEY aliases (Windows)
+  │   ├── qs_demo.yaml          demo data (playground; overwritten by updates)
+  │   ├── cc.yaml               extra DB: country codes (ISO-3166, region, currency, phone)
+  │   ├── cc_by_code.yaml       extra DB: reverse lookup code -> country
+  │   └── kfz.yaml              extra DB: German license plate codes
+  ├── docs/
+  │   ├── README.md             full documentation (English)
+  │   └── README.de.md          full documentation (German)
+  └── tools/
+      ├── excel_to_yaml/        Excel -> YAML converter + sample workbooks
+      └── yaml_to_excel/        YAML -> Excel converter (round trip)
 ```
+
+The `tools/` scripts require a Python installation (3.10+,
+`pip install openpyxl pyyaml`) — the `qs` binary itself does not.
 
 ## License
 
@@ -52,4 +82,4 @@ quickSnapper/
 
 ---
 
-Version 0.8.9 — Tom Gries
+Version 0.9.0 — Tom Gries
