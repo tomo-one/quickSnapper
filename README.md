@@ -56,6 +56,7 @@ Grab the ZIP for your platform from the [Releases](../../releases) page:
 ```
 quickSnapper-<platform>-vX.Y.Z/
   ├── qs.exe  or  qs            the tool (standalone, no Python install needed)
+  ├── _internal/                the tool's runtime files (belong to the binary)
   ├── install.cmd / install.sh  interactive installer (per platform)
   ├── LICENSE                   MIT license
   ├── config/
@@ -69,8 +70,11 @@ quickSnapper-<platform>-vX.Y.Z/
   │   ├── README.md             full documentation (English)
   │   └── README.de.md          full documentation (German)
   └── tools/
-      ├── excel_to_yaml/        Excel -> YAML converter + sample workbooks
-      └── yaml_to_excel/        YAML -> Excel converter (round trip)
+      ├── excel_to_yaml/
+      │   ├── abbr.xlsx             sample workbook: abbreviations
+      │   └── qs_excel_to_yaml.py   script: Excel -> YAML data files
+      └── yaml_to_excel/
+          └── qs_yaml_to_excel.py   script: YAML data files -> Excel (round trip)
 ```
 
 The `tools/` scripts require a Python installation (3.10+,
@@ -82,4 +86,4 @@ The `tools/` scripts require a Python installation (3.10+,
 
 ---
 
-Version 0.9.0 — Tom Gries
+Version 0.9.1 — Tom Gries
