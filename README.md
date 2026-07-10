@@ -30,9 +30,10 @@ Grab the ZIP for your platform from the [Releases](../../releases) page:
 
    It asks for the install location (platform default, home-bin variant
    or a custom path), optionally adds a PATH entry, and can create the
-   optional aliases `qsl`, `qse`, `qsd` — individually selectable.
-   Alternatively, set everything up by hand: see `docs/README.md` in the
-   package.
+   optional aliases `qsl`, `qse`, `qsd` — individually selectable. On an
+   update it merges `config/quickSnapper.ini` instead of overwriting it,
+   so your settings survive. Alternatively, set everything up by hand:
+   see `docs/README.md` in the package.
 
 3. Open a new terminal and try:
 
@@ -86,4 +87,4 @@ The `tools/` scripts require a Python installation (3.10+,
 
 ---
 
-Version 0.9.1 — Tom Gries
+Version 0.9.2 — Tom Gries
