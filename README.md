@@ -87,4 +87,4 @@ The `tools/` scripts require a Python installation (3.10+,
 
 ---
 
-Version 0.9.3 — Tom Gries
+Version 0.9.4 — Tom Gries
