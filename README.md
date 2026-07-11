@@ -88,4 +88,4 @@ The `tools/` scripts require a Python installation (3.10+,
 
 ---
 
-Version 0.9.7 — TOMO
+Version 0.9.8 — TOMO
