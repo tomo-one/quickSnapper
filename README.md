@@ -17,6 +17,7 @@ Grab the ZIP for your platform from the [Releases](../../releases) page:
 - **Windows** x64 (`qs.exe`)
 - **macOS** Apple Silicon (`qs`)
 - **Linux** x64 (`qs`)
+- **Linux** ARM64 (`qs`)
 
 ## Installation
 
@@ -87,4 +88,4 @@ The `tools/` scripts require a Python installation (3.10+,
 
 ---
 
-Version 0.9.6 — TOMO
+Version 0.9.7 — TOMO
