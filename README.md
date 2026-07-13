@@ -102,4 +102,4 @@ ever deleted by accident. Excel sources live under
 
 ---
 
-Version 0.10.0 — TOMO
+Version 0.10.1 — TOMO
