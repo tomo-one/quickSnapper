@@ -65,22 +65,34 @@ quickSnapper-<platform>-vX.Y.Z/
   │   └── quickSnapper.ini      program settings
   ├── data/
   │   ├── qs_demo.yaml          demo data (playground; overwritten by updates)
-  │   ├── cc.yaml               extra DB: country codes (ISO-3166, region, currency, phone)
-  │   ├── cc_by_code.yaml       extra DB: reverse lookup code -> country
-  │   └── kfz.yaml              extra DB: German license plate codes
+  │   ├── cc.yaml               extra DB: country codes, incl. reverse lookup
+  │   └── cc.xlsx               Excel source of cc.yaml
   ├── docs/
   │   ├── README.md             full documentation (English)
   │   └── README.de.md          full documentation (German)
-  └── tools/
-      ├── excel_to_yaml/
-      │   ├── abbr.xlsx             sample workbook: abbreviations
-      │   └── qs_excel_to_yaml.py   script: Excel -> YAML data files
-      └── yaml_to_excel/
-          └── qs_yaml_to_excel.py   script: YAML data files -> Excel (round trip)
+  └── src/
+      ├── qs_excel_to_yaml.py   script: Excel -> YAML data files
+      └── qs_yaml_to_excel.py   script: YAML data files -> Excel (round trip)
 ```
 
-The `tools/` scripts require a Python installation (3.10+,
+The scripts under `src/` require a Python installation (3.10+,
 `pip install openpyxl pyyaml`) — the `qs` binary itself does not.
+
+## Community data
+
+More lookup DBs (e.g. `kfz.yaml`, German license plate codes) live in
+[community-data/](community-data) on this repo's `main` branch instead of
+being bundled in the release ZIP — new or updated ones show up here
+without needing a new quickSnapper release. Fetch one straight into your
+`data/` folder:
+
+```
+qs --fetch-db          # list what's available
+qs --fetch-db kfz      # download kfz.yaml into data/
+```
+
+Excel sources for these files (so they can be edited and reconverted) live
+under [community-data/xlsx/](community-data/xlsx).
 
 ## License
 

@@ -1,0 +1,5094 @@
+# ============================================================
+#  created: 2026-07-13 17:58:16 +02:00
+#  records: 1016
+# ============================================================
+
+# ============================================================
+#  kfz.yaml  –  Deutsche KFZ-Kennzeichen
+#  Quelle: Kraftfahrt-Bundesamt (Stand 16.04.2026)
+#  https://www.kba.de/SharedDocs/Downloads/DE/Presse/kfz_kennzeichenliste_faltblatt.pdf
+#
+#  Verwendung:
+#    qs --db kfz.yaml NI
+#    qs --db kfz.yaml NI.bundesland
+# ============================================================
+
+A:
+  _VALUE:              Augsburg
+  bundesland:          Bayern
+  status:              ""
+
+AA:
+  _VALUE:              Ostalbkreis (Aalen)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+AB:
+  _VALUE:              Aschaffenburg
+  bundesland:          Bayern
+  status:              ""
+
+ABG:
+  _VALUE:              Altenburger Land (Altenburg)
+  bundesland:          Bayern
+  status:              ""
+
+AC:
+  _VALUE:              Aachen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+AE:
+  _VALUE:              Auerbach
+  bundesland:          Sachsen
+  status:              ""
+
+AH:
+  _VALUE:              Ahaus
+  bundesland:          Niedersachsen
+  status:              ""
+
+AIB:
+  _VALUE:              Bad Aibling
+  bundesland:          Bayern
+  status:              ""
+
+AIC:
+  _VALUE:              Aichach-Friedberg (Aichach)
+  bundesland:          Bayern
+  status:              ""
+
+AK:
+  _VALUE:              Altenkirchen (Westerwald)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+AL:
+  _VALUE:              Altena (Westfalen)
+  bundesland:          Nordrhein-Westfalen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Märkischer Kreis
+
+ALF:
+  _VALUE:              Alfeld (Leine)
+  bundesland:          Niedersachsen
+  status:              ""
+
+ALS:
+  _VALUE:              Alsfeld (Oberhessen)
+  bundesland:          Hessen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Vogelsbergkreis
+
+ALZ:
+  _VALUE:              Alzenau (Unterfranken)
+  bundesland:          Bayern
+  status:              ""
+
+AM:
+  _VALUE:              Amberg
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Kreis Amberg-Sulzbach, Stadt-Code bleibt gueltig
+
+AN:
+  _VALUE:              Ansbach
+  bundesland:          Bayern
+  status:              ""
+
+ANA:
+  _VALUE:              Annaberg-Buchholz
+  bundesland:          Sachsen
+  status:              ""
+
+ANG:
+  _VALUE:              Angermünde
+  bundesland:          Brandenburg
+  status:              ""
+
+ANK:
+  _VALUE:              Anklam
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+AÖ:
+  _VALUE:              Altötting
+  bundesland:          Bayern
+  status:              ""
+
+AP:
+  _VALUE:              Weimarer Land (Apolda)
+  bundesland:          Thüringen
+  status:              ""
+
+AR:
+  _VALUE:              Arnsberg (Westfalen)
+  bundesland:          Nordrhein-Westfalen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Hochsauerlandkreis
+
+ARN:
+  _VALUE:              Arnstadt
+  bundesland:          Thüringen
+  status:              ""
+
+AS:
+  _VALUE:              Amberg-Sulzbach
+  bundesland:          Bayern
+  status:              ""
+
+AU:
+  _VALUE:              Aue
+  bundesland:          Sachsen
+  status:              ""
+
+AUR:
+  _VALUE:              Aurich
+  bundesland:          Niedersachsen
+  status:              ""
+
+AW:
+  _VALUE:              Ahrweiler (Bad Neuenahr-Ahrweiler)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+AZ:
+  _VALUE:              Alzey-Worms (Alzey)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+B:
+  _VALUE:              Berlin
+  bundesland:          Berlin
+  status:              ""
+
+BA:
+  _VALUE:              Bamberg
+  bundesland:          Bayern
+  status:              ""
+
+BAD:
+  _VALUE:              Baden-Baden
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+BAR:
+  _VALUE:              Barnim (Eberswalde)
+  bundesland:          Brandenburg
+  status:              ""
+
+BB:
+  _VALUE:              Böblingen
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+BBG:
+  _VALUE:              Bernburg
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+BC:
+  _VALUE:              Biberach an der Riß
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+BCH:
+  _VALUE:              Buchen (Odenwald)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+BEL:
+  _VALUE:              Belzig
+  bundesland:          Brandenburg
+  status:              ""
+
+BER:
+  _VALUE:              Bernau bei Berlin
+  bundesland:          Brandenburg
+  status:              ""
+
+BF:
+  _VALUE:              Steinfurt (Burgsteinfurt)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+BGD:
+  _VALUE:              Berchtesgaden
+  bundesland:          Bayern
+  status:              ""
+
+BGL:
+  _VALUE:              Berchtesgadener Land (Bad Reichenhall)
+  bundesland:          Bayern
+  status:              ""
+
+BH:
+  _VALUE:              Bühl (Baden)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+BI:
+  _VALUE:              Bielefeld
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+BID:
+  _VALUE:              Biedenkopf
+  bundesland:          Hessen
+  status:              ""
+
+BIN:
+  _VALUE:              Bingen am Rhein
+  bundesland:          Hessen
+  status:              ""
+
+BIR:
+  _VALUE:              Birkenfeld (Nahe)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+BIT:
+  _VALUE:              Bitburg-Prüm (Bitburg)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+BK:
+  _VALUE:              Backnang
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+BL:
+  _VALUE:              Zollernalbkreis (Balingen)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+BLK:
+  _VALUE:              Burgenlandkreis (Naumburg)
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+BM:
+  _VALUE:              Erftkreis (Bergheim)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+BN:
+  _VALUE:              Bonn
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+BO:
+  _VALUE:              Bochum
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+BOR:
+  _VALUE:              Borken
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+BOT:
+  _VALUE:              Bottrop
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+BR:
+  _VALUE:              Bruchsal
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+BRA:
+  _VALUE:              Wesermarsch (Brake)
+  bundesland:          Niedersachsen
+  status:              ""
+
+BRB:
+  _VALUE:              Brandenburg an der Havel
+  bundesland:          Brandenburg
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Kreis Potsdam-Mittelmark, Stadt-Code bleibt gueltig
+
+BRG:
+  _VALUE:              Burg
+  bundesland:          Brandenburg
+  status:              ""
+
+BRI:
+  _VALUE:              Brilon
+  bundesland:          Nordrhein-Westfalen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Hochsauerlandkreis
+
+BRK:
+  _VALUE:              Bad Brückenau
+  bundesland:          Bayern
+  status:              ""
+
+BRV:
+  _VALUE:              Bremervörde
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+BS:
+  _VALUE:              Braunschweig
+  bundesland:          Niedersachsen
+  status:              ""
+
+BSB:
+  _VALUE:              Bersenbrück
+  bundesland:          Niedersachsen
+  status:              ""
+
+BSK:
+  _VALUE:              Beeskow
+  bundesland:          Brandenburg
+  status:              ""
+
+BT:
+  _VALUE:              Bayreuth
+  bundesland:          Bayern
+  status:              ""
+
+BTF:
+  _VALUE:              Bitterfeld
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+BÜD:
+  _VALUE:              Büdingen (Oberhessen)
+  bundesland:          Hessen
+  status:              ""
+
+BUL:
+  _VALUE:              Burglengenfeld
+  bundesland:          Bayern
+  status:              ""
+
+BÜR:
+  _VALUE:              Büren (Westfalen)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+BÜS:
+  _VALUE:              Büsingen am Hochrhein
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+BÜZ:
+  _VALUE:              Bützow
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+BZ:
+  _VALUE:              Bautzen
+  bundesland:          Sachsen
+  status:              ""
+
+C:
+  _VALUE:              Chemnitz
+  bundesland:          Sachsen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Zwickau, Stadt-Code bleibt gueltig
+
+CA:
+  _VALUE:              Calau
+  bundesland:          Brandenburg
+  status:              ""
+
+CAS:
+  _VALUE:              Castrop-Rauxel
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+CB:
+  _VALUE:              Cottbus
+  bundesland:          Brandenburg
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Spree-Neiße, Stadt-Code bleibt gueltig
+
+CE:
+  _VALUE:              Celle
+  bundesland:          Niedersachsen
+  status:              ""
+
+CHA:
+  _VALUE:              Cham (Oberpfalz)
+  bundesland:          Bayern
+  status:              ""
+
+CLP:
+  _VALUE:              Cloppenburg
+  bundesland:          Niedersachsen
+  status:              ""
+
+CO:
+  _VALUE:              Coburg
+  bundesland:          Bayern
+  status:              ""
+
+COC:
+  _VALUE:              Cochem-Zell (Cochem)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+COE:
+  _VALUE:              Coesfeld (Westfalen)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+CR:
+  _VALUE:              Crailsheim
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+CUX:
+  _VALUE:              Cuxhaven
+  bundesland:          Niedersachsen
+  status:              ""
+
+CW:
+  _VALUE:              Calw
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+D:
+  _VALUE:              Düsseldorf
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+DA:
+  _VALUE:              Darmstadt
+  bundesland:          Hessen
+  status:              ""
+
+DAH:
+  _VALUE:              Dachau
+  bundesland:          Bayern
+  status:              ""
+
+DAN:
+  _VALUE:              Lüchow-Dannenberg (Lüchow)
+  bundesland:          Niedersachsen
+  status:              ""
+
+DAU:
+  _VALUE:              Daun (Eifel)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+DBR:
+  _VALUE:              Bad Doberan
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+DD:
+  _VALUE:              Dresden
+  bundesland:          Sachsen
+  status:              ""
+
+DE:
+  _VALUE:              Dessau
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+DEG:
+  _VALUE:              Deggendorf
+  bundesland:          Bayern
+  status:              ""
+
+DEL:
+  _VALUE:              Delmenhorst
+  bundesland:          Niedersachsen
+  status:              ""
+
+DGF:
+  _VALUE:              Dingolfing-Landau (Dingolfing)
+  bundesland:          Bayern
+  status:              ""
+
+DH:
+  _VALUE:              Diepholz
+  bundesland:          Niedersachsen
+  status:              ""
+
+DIL:
+  _VALUE:              Dillkreis (Dillenburg)
+  bundesland:          Hessen
+  status:              ""
+
+DIN:
+  _VALUE:              Dinslaken
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+DIZ:
+  _VALUE:              Unterlahnkreis (Diez)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+DKB:
+  _VALUE:              Dinkelsbühl
+  bundesland:          Bayern
+  status:              ""
+
+DL:
+  _VALUE:              Döbeln
+  bundesland:          Sachsen
+  status:              ""
+
+DLG:
+  _VALUE:              Dillingen an der Donau
+  bundesland:          Bayern
+  status:              ""
+
+DM:
+  _VALUE:              Demmin
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+DN:
+  _VALUE:              Düren
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+DO:
+  _VALUE:              Dortmund
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+DON:
+  _VALUE:              Donau-Ries (Donauwörth)
+  bundesland:          Bayern
+  status:              ""
+
+DS:
+  _VALUE:              Donaueschingen
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+DT:
+  _VALUE:              Lippe (Detmold)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+DU:
+  _VALUE:              Duisburg
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+DUD:
+  _VALUE:              Duderstadt
+  bundesland:          Niedersachsen
+  status:              ""
+
+DÜW:
+  _VALUE:              Bad Dürkheim (Weinstraße)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+DW:
+  _VALUE:              Weißeritzkreis (Dippoldiswalde)
+  bundesland:          Sachsen
+  status:              ""
+
+DZ:
+  _VALUE:              Delitzsch
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+E:
+  _VALUE:              Essen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+EB:
+  _VALUE:              Eilenburg
+  bundesland:          Bayern
+  status:              ""
+
+EBE:
+  _VALUE:              Ebersberg
+  bundesland:          Bayern
+  status:              ""
+
+EBS:
+  _VALUE:              Ebermannstadt
+  bundesland:          Bayern
+  status:              ""
+
+ECK:
+  _VALUE:              Eckernförde
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+ED:
+  _VALUE:              Erding
+  bundesland:          Bayern
+  status:              ""
+
+EE:
+  _VALUE:              Elbe-Elster (Herzberg)
+  bundesland:          Brandenburg
+  status:              ""
+
+EF:
+  _VALUE:              Erfurt
+  bundesland:          Thüringen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Sömmerda, Stadt-Code bleibt gueltig
+
+EG:
+  _VALUE:              Eggenfelden
+  bundesland:          Bayern
+  status:              ""
+
+EHI:
+  _VALUE:              Ehingen (Donau)
+  bundesland:          Bayern
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Alb-Donau-Kreis
+
+EI:
+  _VALUE:              Eichstätt
+  bundesland:          Bayern
+  status:              ""
+
+EIC:
+  _VALUE:              Eichsfeld (Heiligenstadt)
+  bundesland:          Thüringen
+  status:              ""
+
+EIL:
+  _VALUE:              Eisleben
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+EIN:
+  _VALUE:              Einbeck
+  bundesland:          Niedersachsen
+  status:              ""
+
+EIS:
+  _VALUE:              Eisenberg
+  bundesland:          Thüringen
+  status:              ""
+
+EL:
+  _VALUE:              Emsland (Meppen)
+  bundesland:          Niedersachsen
+  status:              ""
+
+EM:
+  _VALUE:              Emmendingen
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+EMD:
+  _VALUE:              Emden
+  bundesland:          Niedersachsen
+  status:              ""
+
+EMS:
+  _VALUE:              Rhein-Lahn-Kreis (Bad Ems)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+EN:
+  _VALUE:              Ennepe-Ruhr-Kreis (Schwelm)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+ER:
+  _VALUE:              Erlangen
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Erlangen-Höchstadt, Stadt-Code bleibt gueltig
+
+ERB:
+  _VALUE:              Odenwaldkreis (Erbach)
+  bundesland:          Bayern
+  status:              ""
+
+ERH:
+  _VALUE:              Erlangen-Höchstadt
+  bundesland:          Bayern
+  status:              ""
+
+ERK:
+  _VALUE:              Erkelenz
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+ES:
+  _VALUE:              Esslingen am Neckar
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+ESA:
+  _VALUE:              Eisenach
+  bundesland:          Thüringen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Wartburgkreis
+
+ESB:
+  _VALUE:              Eschenbach (Oberpfalz)
+  bundesland:          Bayern
+  status:              ""
+
+ESW:
+  _VALUE:              Werra-Meißner-Kreis (Eschwege)
+  bundesland:          Hessen
+  status:              ""
+
+EU:
+  _VALUE:              Euskirchen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+EUT:
+  _VALUE:              Eutin
+  bundesland:          Schleswig-Holstein
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Ostholstein
+
+F:
+  _VALUE:              Frankfurt am Main
+  bundesland:          Hessen
+  status:              ""
+
+FAL:
+  _VALUE:              Soltau-Fallingbostel (Fallingbostel)
+  bundesland:          Niedersachsen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Heidekreis
+
+FB:
+  _VALUE:              Wetteraukreis (Friedberg)
+  bundesland:          Hessen
+  status:              ""
+
+FD:
+  _VALUE:              Fulda
+  bundesland:          Hessen
+  status:              ""
+
+FDB:
+  _VALUE:              Friedberg (Bayern)
+  bundesland:          Bayern
+  status:              ""
+
+FDS:
+  _VALUE:              Freudenstadt
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+FEU:
+  _VALUE:              Feuchtwangen
+  bundesland:          Bayern
+  status:              ""
+
+FF:
+  _VALUE:              Frankfurt (Oder)
+  bundesland:          Brandenburg
+  status:              ""
+
+FFB:
+  _VALUE:              Fürstenfeldbruck
+  bundesland:          Bayern
+  status:              ""
+
+FG:
+  _VALUE:              Freiberg (Sachsen)
+  bundesland:          Sachsen
+  status:              ""
+
+FH:
+  _VALUE:              Main-Taunus-Kreis (Frankfurt-Höchst)
+  bundesland:          Hessen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Main-Taunus-Kreis
+
+FL:
+  _VALUE:              Flensburg
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+FN:
+  _VALUE:              Bodenseekreis (Friedrichshafen)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+FO:
+  _VALUE:              Forchheim
+  bundesland:          Bayern
+  status:              ""
+
+FR:
+  _VALUE:              Freiburg im Breisgau
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+FRG:
+  _VALUE:              Freyung-Grafenau (Freyung)
+  bundesland:          Bayern
+  status:              ""
+
+FRI:
+  _VALUE:              Friesland (Jever)
+  bundesland:          Niedersachsen
+  status:              ""
+
+FS:
+  _VALUE:              Freising
+  bundesland:          Bayern
+  status:              ""
+
+FT:
+  _VALUE:              Frankenthal (Pfalz)
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Bad Dürkheim und Rhein-Pfalz-Kreis, Stadt-Code bleibt gueltig
+
+FÜ:
+  _VALUE:              Fürth
+  bundesland:          Bayern
+  status:              ""
+
+FÜS:
+  _VALUE:              Füssen
+  bundesland:          Bayern
+  status:              ""
+
+FW:
+  _VALUE:              Fürstenwalde
+  bundesland:          Brandenburg
+  status:              ""
+
+FZ:
+  _VALUE:              Fritzlar-Homberg (Fritzlar)
+  bundesland:          Hessen
+  status:              ""
+
+G:
+  _VALUE:              Gera
+  bundesland:          Thüringen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Greiz, Stadt-Code bleibt gueltig
+
+GA:
+  _VALUE:              Gardelegen
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+GAN:
+  _VALUE:              Gandersheim (Bad Gandersheim)
+  bundesland:          Niedersachsen
+  status:              ""
+
+GAP:
+  _VALUE:              Garmisch-Partenkirchen
+  bundesland:          Bayern
+  status:              ""
+
+GC:
+  _VALUE:              Chemnitzer Land (Glauchau)
+  bundesland:          Sachsen
+  status:              ""
+
+GD:
+  _VALUE:              Schwäbisch Gmünd
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+GE:
+  _VALUE:              Gelsenkirchen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+GEL:
+  _VALUE:              Geldern
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+GER:
+  _VALUE:              Germersheim
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+GF:
+  _VALUE:              Gifhorn
+  bundesland:          Niedersachsen
+  status:              ""
+
+GG:
+  _VALUE:              Groß-Gerau
+  bundesland:          Hessen
+  status:              ""
+
+GI:
+  _VALUE:              Gießen
+  bundesland:          Hessen
+  status:              ""
+
+GL:
+  _VALUE:              Rheinisch-Bergischer Kreis (Bergisch Gladbach)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+GM:
+  _VALUE:              Oberbergischer Kreis (Gummersbach)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+GN:
+  _VALUE:              Gelnhausen
+  bundesland:          Hessen
+  status:              ""
+
+GÖ:
+  _VALUE:              Göttingen
+  bundesland:          Niedersachsen
+  status:              ""
+
+GP:
+  _VALUE:              Göppingen
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+GR:
+  _VALUE:              Görlitz
+  bundesland:          Sachsen
+  status:              ""
+
+GS:
+  _VALUE:              Goslar
+  bundesland:          Niedersachsen
+  status:              ""
+
+GT:
+  _VALUE:              Gütersloh
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+GTH:
+  _VALUE:              Gotha
+  bundesland:          Thüringen
+  status:              ""
+
+GÜ:
+  _VALUE:              Güstrow
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+GUB:
+  _VALUE:              Guben
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+GUN:
+  _VALUE:              Gunzenhausen
+  bundesland:          Bayern
+  status:              ""
+
+GV:
+  _VALUE:              Grevenbroich
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+GZ:
+  _VALUE:              Günzburg
+  bundesland:          Sachsen
+  status:              ""
+
+H:
+  _VALUE:              Hannover (Region)
+  bundesland:          Niedersachsen
+  status:              ""
+
+HA:
+  _VALUE:              Hagen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+HAB:
+  _VALUE:              Hammelburg
+  bundesland:          Bayern
+  status:              ""
+
+HAL:
+  _VALUE:              Halle (Saale)
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+HAM:
+  _VALUE:              Hamm
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+HAS:
+  _VALUE:              Haßberge (Haßfurt)
+  bundesland:          Bayern
+  status:              ""
+
+HB:
+  _VALUE:              Bremen und Bremerhaven
+  bundesland:          Bremen
+  status:              ""
+
+HBN:
+  _VALUE:              Hildburghausen
+  bundesland:          Thüringen
+  status:              ""
+
+HBS:
+  _VALUE:              Halberstadt
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+HD:
+  _VALUE:              Rhein-Neckar-Kreis (Heidelberg)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+HDH:
+  _VALUE:              Heidenheim an der Brenz
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+HE:
+  _VALUE:              Helmstedt
+  bundesland:          Niedersachsen
+  status:              ""
+
+HEF:
+  _VALUE:              Hersfeld-Rotenburg (Bad Hersfeld)
+  bundesland:          Hessen
+  status:              ""
+
+HEI:
+  _VALUE:              Dithmarschen (Heide)
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+HER:
+  _VALUE:              Herne
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+HF:
+  _VALUE:              Herford
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+HH:
+  _VALUE:              Hansestadt Hamburg
+  bundesland:          Hamburg
+  status:              ""
+
+HG:
+  _VALUE:              Hochtaunuskreis (Bad Homburg)
+  bundesland:          Hessen
+  status:              ""
+
+HI:
+  _VALUE:              Hildesheim
+  bundesland:          Niedersachsen
+  status:              ""
+
+HIP:
+  _VALUE:              Hilpoltstein (Mittelfranken)
+  bundesland:          Bayern
+  status:              ""
+
+HL:
+  _VALUE:              Lübeck
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+HM:
+  _VALUE:              Hameln-Pyrmont (Hameln)
+  bundesland:          Niedersachsen
+  status:              ""
+
+HN:
+  _VALUE:              Heilbronn
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+HO:
+  _VALUE:              Hof
+  bundesland:          Bayern
+  status:              ""
+
+HOL:
+  _VALUE:              Holzminden
+  bundesland:          Niedersachsen
+  status:              ""
+
+HOM:
+  _VALUE:              Saar-Pfalz-Kreis (Homburg)
+  bundesland:          Saarland
+  status:              ""
+
+HOR:
+  _VALUE:              Horb am Neckar
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+HP:
+  _VALUE:              Bergstraße (Heppenheim)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+HR:
+  _VALUE:              Schwalm-Eder-Kreis (Homberg)
+  bundesland:          Hessen
+  status:              ""
+
+HRO:
+  _VALUE:              Rostock
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+HS:
+  _VALUE:              Heinsberg
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+HSK:
+  _VALUE:              Hochsauerlandkreis (Meschede)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+HU:
+  _VALUE:              Main-Kinzig-Kreis (Hanau)
+  bundesland:          Hessen
+  status:              ""
+
+HUS:
+  _VALUE:              Husum
+  bundesland:          Schleswig-Holstein
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Nordfriesland
+
+HVL:
+  _VALUE:              Havelland (Rathenow)
+  bundesland:          Brandenburg
+  status:              ""
+
+HX:
+  _VALUE:              Höxter
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+HZ:
+  _VALUE:              Herzberg
+  bundesland:          Niedersachsen
+  status:              ""
+
+IK:
+  _VALUE:              Ilmkreis (Arnstadt)
+  bundesland:          Thüringen
+  status:              ""
+
+IL:
+  _VALUE:              Ilmenau
+  bundesland:          Thüringen
+  status:              ""
+
+IN:
+  _VALUE:              Ingolstadt
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Eichstätt, Stadt-Code bleibt gueltig
+
+IS:
+  _VALUE:              Iserlohn
+  bundesland:          Nordrhein-Westfalen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Märkischer Kreis
+
+IZ:
+  _VALUE:              Steinburg (Itzehoe)
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+J:
+  _VALUE:              Jena
+  bundesland:          Thüringen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Saale-Holzland-Kreis, Stadt-Code bleibt gueltig
+
+JE:
+  _VALUE:              Jessen
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+JEV:
+  _VALUE:              Friesland (Jever)
+  bundesland:          Niedersachsen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Friesland
+
+JL:
+  _VALUE:              Jerichower Land (Burg)
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+JÜL:
+  _VALUE:              Jülich
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+K:
+  _VALUE:              Köln
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+KA:
+  _VALUE:              Karlsruhe
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+KB:
+  _VALUE:              Waldeck-Frankenberg (Korbach)
+  bundesland:          Hessen
+  status:              ""
+
+KC:
+  _VALUE:              Kronach
+  bundesland:          Bayern
+  status:              ""
+
+KE:
+  _VALUE:              Kempten (Allgäu)
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Oberallgäu, Stadt-Code bleibt gueltig
+
+KEH:
+  _VALUE:              Kelheim
+  bundesland:          Bayern
+  status:              ""
+
+KEL:
+  _VALUE:              Kehl
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+KEM:
+  _VALUE:              Kemnath
+  bundesland:          Bayern
+  status:              ""
+
+KF:
+  _VALUE:              Kaufbeuren
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Ostallgäu, Stadt-Code bleibt gueltig
+
+KG:
+  _VALUE:              Bad Kissingen
+  bundesland:          Bayern
+  status:              ""
+
+KH:
+  _VALUE:              Bad Kreuznach
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+KI:
+  _VALUE:              Kiel
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+KIB:
+  _VALUE:              Donnersbergkreis (Kirchheimbolanden)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+KL:
+  _VALUE:              Kaiserslautern
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+KLE:
+  _VALUE:              Kleve
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+KM:
+  _VALUE:              Kamenz
+  bundesland:          Sachsen
+  status:              ""
+
+KN:
+  _VALUE:              Konstanz
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+KO:
+  _VALUE:              Koblenz
+  bundesland:          Rheinland-Pfalz
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Kreis Mayen-Koblenz, Stadt-Code bleibt gueltig
+
+KR:
+  _VALUE:              Krefeld
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+KS:
+  _VALUE:              Kassel
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+KT:
+  _VALUE:              Kitzingen
+  bundesland:          Bayern
+  status:              ""
+
+KU:
+  _VALUE:              Kulmbach
+  bundesland:          Bayern
+  status:              ""
+
+KÜN:
+  _VALUE:              Hohenlohe-Kreis (Künzelsau)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+KUS:
+  _VALUE:              Kusel
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+KYF:
+  _VALUE:              Kyffhäuserkreis (Sondershausen)
+  bundesland:          Thüringen
+  status:              ""
+
+L:
+  _VALUE:              Leipzig
+  bundesland:          Sachsen
+  status:              ""
+
+LA:
+  _VALUE:              Landshut
+  bundesland:          Bayern
+  status:              ""
+
+LAN:
+  _VALUE:              Landau an der Isar
+  bundesland:          Bayern
+  status:              ""
+
+LAU:
+  _VALUE:              Nürnberger Land (Lauf)
+  bundesland:          Bayern
+  status:              ""
+
+LB:
+  _VALUE:              Ludwigsburg
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+LC:
+  _VALUE:              Luckau
+  bundesland:          Brandenburg
+  status:              ""
+
+LD:
+  _VALUE:              Landau in der Pfalz
+  bundesland:          Rheinland-Pfalz
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Kreis Südliche Weinstraße, Stadt-Code bleibt gueltig
+
+LDK:
+  _VALUE:              Lahn-Dill-Kreis (Wetzlar)
+  bundesland:          Hessen
+  status:              ""
+
+LDS:
+  _VALUE:              Dahme-Spreewald (Lübben)
+  bundesland:          Brandenburg
+  status:              ""
+
+LE:
+  _VALUE:              Lemgo
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+LER:
+  _VALUE:              Leer (Ostfriesland)
+  bundesland:          Niedersachsen
+  status:              ""
+
+LEV:
+  _VALUE:              Leverkusen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+LG:
+  _VALUE:              Lüneburg
+  bundesland:          Niedersachsen
+  status:              ""
+
+LI:
+  _VALUE:              Lindau (Bodensee)
+  bundesland:          Bayern
+  status:              ""
+
+LIF:
+  _VALUE:              Lichtenfels
+  bundesland:          Bayern
+  status:              ""
+
+LIN:
+  _VALUE:              Lingen (Ems)
+  bundesland:          Niedersachsen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Emsland
+
+LIP:
+  _VALUE:              Lippe (Detmold)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+LK:
+  _VALUE:              Lübbecke (Westfalen)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+LL:
+  _VALUE:              Landsberg am Lech
+  bundesland:          Bayern
+  status:              ""
+
+LM:
+  _VALUE:              Limburg-Weilburg (Limburg)
+  bundesland:          Hessen
+  status:              ""
+
+LÖ:
+  _VALUE:              Lörrach
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+LOS:
+  _VALUE:              Oder-Spree (Beeskow)
+  bundesland:          Brandenburg
+  status:              ""
+
+LP:
+  _VALUE:              Lippstadt
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+LR:
+  _VALUE:              Lahr (Schwarzwald)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+LS:
+  _VALUE:              Märkischer Kreis (Lüdenscheid)
+  bundesland:          Nordrhein-Westfalen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Märkischer Kreis
+
+LSZ:
+  _VALUE:              Bad Langensalza
+  bundesland:          Thüringen
+  status:              ""
+
+LU:
+  _VALUE:              Ludwigshafen am Rhein
+  bundesland:          Rheinland-Pfalz
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Rhein-Pfalz-Kreis, Stadt-Code bleibt gueltig
+
+LWL:
+  _VALUE:              Ludwigslust
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+M:
+  _VALUE:              München
+  bundesland:          Bayern
+  status:              ""
+
+MA:
+  _VALUE:              Mannheim
+  bundesland:          Baden-Württemberg
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Rhein-Neckar-Kreis, Stadt-Code bleibt gueltig
+
+MAI:
+  _VALUE:              Mainburg
+  bundesland:          Bayern
+  status:              ""
+
+MB:
+  _VALUE:              Miesbach
+  bundesland:          Bayern
+  status:              ""
+
+MD:
+  _VALUE:              Magdeburg
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+ME:
+  _VALUE:              Mettmann
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+MEI:
+  _VALUE:              Meißen
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+MEK:
+  _VALUE:              Mittlerer Erzgebirgskreis (Marienberg)
+  bundesland:          Sachsen
+  status:              ""
+
+MEL:
+  _VALUE:              Melle
+  bundesland:          Niedersachsen
+  status:              ""
+
+MEP:
+  _VALUE:              Meppen
+  bundesland:          Niedersachsen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Emsland
+
+MER:
+  _VALUE:              Merseburg
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+MG:
+  _VALUE:              Mönchengladbach
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+MGH:
+  _VALUE:              Bad Mergentheim
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+MGN:
+  _VALUE:              Meiningen
+  bundesland:          Thüringen
+  status:              ""
+
+MH:
+  _VALUE:              Mülheim an der Ruhr
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+MHL:
+  _VALUE:              Mühlhausen
+  bundesland:          Thüringen
+  status:              ""
+
+MI:
+  _VALUE:              Minden-Lübbecke (Minden)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+MIL:
+  _VALUE:              Miltenberg
+  bundesland:          Bayern
+  status:              ""
+
+MK:
+  _VALUE:              Märkischer Kreis (Lüdenscheid)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+MM:
+  _VALUE:              Memmingen
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Unterallgäu, Stadt-Code bleibt gueltig
+
+MN:
+  _VALUE:              Unterallgäu (Mindelheim)
+  bundesland:          Bayern
+  status:              ""
+
+MO:
+  _VALUE:              Moers
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+MOL:
+  _VALUE:              Märkisch-Oderland (Seelow)
+  bundesland:          Brandenburg
+  status:              ""
+
+MOS:
+  _VALUE:              Neckar-Odenwald-Kreis (Mosbach)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+MR:
+  _VALUE:              Marburg-Biedenkopf (Marburg)
+  bundesland:          Hessen
+  status:              ""
+
+MS:
+  _VALUE:              Münster
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+MSP:
+  _VALUE:              Main-Spessart (Karlstadt)
+  bundesland:          Bayern
+  status:              ""
+
+MST:
+  _VALUE:              Mecklenburg-Strelitz (Neustrelitz)
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+MT:
+  _VALUE:              Westerwald (Montabaur)
+  bundesland:          Rheinland-Pfalz
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Westerwald
+
+MTK:
+  _VALUE:              Main-Taunus-Kreis (Hofheim am Taunus)
+  bundesland:          Hessen
+  status:              ""
+
+MTL:
+  _VALUE:              Muldentalkreis (Grimma)
+  bundesland:          Sachsen
+  status:              ""
+
+MÜ:
+  _VALUE:              Mühldorf am Inn
+  bundesland:          Bayern
+  status:              ""
+
+MÜR:
+  _VALUE:              Müritz (Waren)
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+MW:
+  _VALUE:              Mittweida
+  bundesland:          Sachsen
+  status:              ""
+
+MY:
+  _VALUE:              Mayen
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+MYK:
+  _VALUE:              Mayen-Koblenz
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+MZ:
+  _VALUE:              Mainz
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+MZG:
+  _VALUE:              Merzig-Wadern (Merzig)
+  bundesland:          Saarland
+  status:              ""
+
+N:
+  _VALUE:              Nürnberg
+  bundesland:          Bayern
+  status:              ""
+
+NAB:
+  _VALUE:              Nabburg
+  bundesland:          Bayern
+  status:              ""
+
+NAU:
+  _VALUE:              Nauen
+  bundesland:          Brandenburg
+  status:              ""
+
+NB:
+  _VALUE:              Neubrandenburg
+  bundesland:          Mecklenburg-Vorpommern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Mecklenburg-Strelitz, Stadt-Code bleibt gueltig
+
+ND:
+  _VALUE:              Neuburg-Schrobenhausen (Neuburg)
+  bundesland:          Bayern
+  status:              ""
+
+NDH:
+  _VALUE:              Nordhausen
+  bundesland:          Thüringen
+  status:              ""
+
+NE:
+  _VALUE:              Neuss
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+NEA:
+  _VALUE:              Neustadt an der Aisch-Bad Windsheim
+  bundesland:          Bayern
+  status:              ""
+
+NES:
+  _VALUE:              Rhön-Grabfeld (Bad Neustadt)
+  bundesland:          Bayern
+  status:              ""
+
+NEW:
+  _VALUE:              Neustadt an der Waldnaab
+  bundesland:          Bayern
+  status:              ""
+
+NF:
+  _VALUE:              Nordfriesland (Husum)
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+NI:
+  _VALUE:              Nienburg (Weser)
+  bundesland:          Niedersachsen
+  status:              ""
+
+NK:
+  _VALUE:              Neunkirchen (Saar)
+  bundesland:          Saarland
+  status:              ""
+
+NM:
+  _VALUE:              Neumarkt in der Oberpfalz
+  bundesland:          Bayern
+  status:              ""
+
+NMS:
+  _VALUE:              Neumünster
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+NOH:
+  _VALUE:              Grafschaft Bentheim (Nordhorn)
+  bundesland:          Niedersachsen
+  status:              ""
+
+NOM:
+  _VALUE:              Northeim
+  bundesland:          Niedersachsen
+  status:              ""
+
+NOR:
+  _VALUE:              Norden
+  bundesland:          Niedersachsen
+  status:              ""
+
+NP:
+  _VALUE:              Neuruppin
+  bundesland:          Brandenburg
+  status:              ""
+
+NR:
+  _VALUE:              Neuwied
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+NT:
+  _VALUE:              Nürtingen
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+NU:
+  _VALUE:              Neu-Ulm
+  bundesland:          Bayern
+  status:              ""
+
+NVP:
+  _VALUE:              Nordvorpommern (Grimmen)
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+NW:
+  _VALUE:              Neustadt an der Weinstraße
+  bundesland:          Rheinland-Pfalz
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Bad Dürkheim, Stadt-Code bleibt gueltig
+
+NWM:
+  _VALUE:              Nordwestmecklenburg (Grevesmühlen)
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+OA:
+  _VALUE:              Oberallgäu (Sonthofen)
+  bundesland:          Bayern
+  status:              ""
+
+OAL:
+  _VALUE:              Ostallgäu (Marktoberdorf)
+  bundesland:          Bayern
+  status:              ""
+
+OB:
+  _VALUE:              Oberhausen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+OD:
+  _VALUE:              Stormarn (Bad Oldesloe)
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+OE:
+  _VALUE:              Olpe
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+OF:
+  _VALUE:              Offenbach am Main
+  bundesland:          Hessen
+  status:              ""
+
+OG:
+  _VALUE:              Ortenaukreis (Offenburg)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+OH:
+  _VALUE:              Ostholstein (Eutin)
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+OHA:
+  _VALUE:              Osterode am Harz
+  bundesland:          Niedersachsen
+  status:              ""
+
+OHV:
+  _VALUE:              Oberhavel (Oranienburg)
+  bundesland:          Brandenburg
+  status:              ""
+
+OHZ:
+  _VALUE:              Osterholz (Osterholz-Scharmbeck)
+  bundesland:          Niedersachsen
+  status:              ""
+
+OL:
+  _VALUE:              Oldenburg
+  bundesland:          Niedersachsen
+  status:              ""
+
+OPR:
+  _VALUE:              Ostprignitz-Ruppin (Neuruppin)
+  bundesland:          Brandenburg
+  status:              ""
+
+OS:
+  _VALUE:              Osnabrück
+  bundesland:          Niedersachsen
+  status:              ""
+
+OSL:
+  _VALUE:              Oberspreewald-Lausitz (Senftenberg)
+  bundesland:          Brandenburg
+  status:              ""
+
+OVI:
+  _VALUE:              Oberviechtach
+  bundesland:          Bayern
+  status:              ""
+
+OVP:
+  _VALUE:              Ostvorpommern (Anklam)
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+P:
+  _VALUE:              Potsdam
+  bundesland:          Brandenburg
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Kreis Potsdam-Mittelmark, Stadt-Code bleibt gueltig
+
+PA:
+  _VALUE:              Passau
+  bundesland:          Bayern
+  status:              ""
+
+PAF:
+  _VALUE:              Pfaffenhofen an der Ilm
+  bundesland:          Bayern
+  status:              ""
+
+PAN:
+  _VALUE:              Rottal-Inn (Pfarrkirchen)
+  bundesland:          Bayern
+  status:              ""
+
+PB:
+  _VALUE:              Paderborn
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+PE:
+  _VALUE:              Peine
+  bundesland:          Niedersachsen
+  status:              ""
+
+PEG:
+  _VALUE:              Pegnitz
+  bundesland:          Bayern
+  status:              ""
+
+PF:
+  _VALUE:              Pforzheim
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+PI:
+  _VALUE:              Pinneberg
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+PIR:
+  _VALUE:              Sächsische Schweiz (Pirna)
+  bundesland:          Sachsen
+  status:              ""
+
+PL:
+  _VALUE:              Plauen
+  bundesland:          Sachsen
+  status:              ""
+
+PLÖ:
+  _VALUE:              Plön
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+PM:
+  _VALUE:              Potsdam-Mittelmark (Belzig)
+  bundesland:          Brandenburg
+  status:              ""
+
+PR:
+  _VALUE:              Prignitz (Perleberg)
+  bundesland:          Brandenburg
+  status:              ""
+
+PRÜ:
+  _VALUE:              Prüm (Eifel)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+PS:
+  _VALUE:              Pirmasens
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+PZ:
+  _VALUE:              Prenzlau
+  bundesland:          Brandenburg
+  status:              ""
+
+QLB:
+  _VALUE:              Quedlinburg
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+R:
+  _VALUE:              Regensburg
+  bundesland:          Bayern
+  status:              ""
+
+RA:
+  _VALUE:              Rastatt
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+RC:
+  _VALUE:              Reichenbach (Vogtland)
+  bundesland:          Sachsen
+  status:              ""
+
+RD:
+  _VALUE:              Rendsburg-Eckernförde (Rendsburg)
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+RE:
+  _VALUE:              Recklinghausen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+REG:
+  _VALUE:              Regen
+  bundesland:          Bayern
+  status:              ""
+
+RG:
+  _VALUE:              Riesa-Großenhain (Großenhain)
+  bundesland:          Sachsen
+  status:              ""
+
+RH:
+  _VALUE:              Roth
+  bundesland:          Bayern
+  status:              ""
+
+RI:
+  _VALUE:              Grafschaft Schaumburg (Rinteln)
+  bundesland:          Niedersachsen
+  status:              ""
+
+RO:
+  _VALUE:              Rosenheim
+  bundesland:          Bayern
+  status:              ""
+
+ROT:
+  _VALUE:              Rothenburg ob der Tauber
+  bundesland:          Bayern
+  status:              ""
+
+ROW:
+  _VALUE:              Rotenburg (Wümme)
+  bundesland:          Niedersachsen
+  status:              ""
+
+RS:
+  _VALUE:              Remscheid
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+RT:
+  _VALUE:              Reutlingen
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+RU:
+  _VALUE:              Rudolstadt
+  bundesland:          Thüringen
+  status:              ""
+
+RÜD:
+  _VALUE:              Rheingau-Taunus-Kreis (Rüdesheim)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+RÜG:
+  _VALUE:              Rügen (Bergen)
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+RV:
+  _VALUE:              Ravensburg
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+RW:
+  _VALUE:              Rottweil
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+RZ:
+  _VALUE:              Herzogtum Lauenburg (Ratzeburg)
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+S:
+  _VALUE:              Stuttgart
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+SAD:
+  _VALUE:              Schwandorf
+  bundesland:          Bayern
+  status:              ""
+
+SAW:
+  _VALUE:              Altmarkkreis (Salzwedel)
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+SB:
+  _VALUE:              Saarbrücken
+  bundesland:          Saarland
+  status:              ""
+
+SC:
+  _VALUE:              Schwabach
+  bundesland:          Sachsen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Roth, Stadt-Code bleibt gueltig
+
+SDL:
+  _VALUE:              Stendal
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+SE:
+  _VALUE:              Segeberg (Bad Segeberg)
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+SG:
+  _VALUE:              Solingen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+SHA:
+  _VALUE:              Schwäbisch Hall
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+SHG:
+  _VALUE:              Schaumburg (Stadthagen)
+  bundesland:          Niedersachsen
+  status:              ""
+
+SHK:
+  _VALUE:              Saale-Holzland-Kreis (Eisenberg)
+  bundesland:          Thüringen
+  status:              ""
+
+SHL:
+  _VALUE:              Suhl
+  bundesland:          Thüringen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Hildburghausen, Stadt-Code bleibt gueltig
+
+SI:
+  _VALUE:              Siegen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+SIG:
+  _VALUE:              Sigmaringen
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+SIM:
+  _VALUE:              Rhein-Hunsrück-Kreis (Simmern)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+SL:
+  _VALUE:              Schleswig-Flensburg (Schleswig)
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+SLF:
+  _VALUE:              Saalfeld-Rudolstadt (Saalfeld)
+  bundesland:          Thüringen
+  status:              ""
+
+SLS:
+  _VALUE:              Saarlouis
+  bundesland:          Saarland
+  status:              ""
+
+SLZ:
+  _VALUE:              Bad Salzungen
+  bundesland:          Thüringen
+  status:              ""
+
+SM:
+  _VALUE:              Schmalkalden-Meiningen (Meiningen)
+  bundesland:          Thüringen
+  status:              ""
+
+SN:
+  _VALUE:              Schwerin
+  bundesland:          Mecklenburg-Vorpommern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Ludwiglust-Parchim, Stadt-Code bleibt gueltig
+
+SO:
+  _VALUE:              Soest
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+SOK:
+  _VALUE:              Saale-Orla-Kreis (Schleiz)
+  bundesland:          Thüringen
+  status:              ""
+
+SÖM:
+  _VALUE:              Sömmerda
+  bundesland:          Thüringen
+  status:              ""
+
+SON:
+  _VALUE:              Sonneberg
+  bundesland:          Thüringen
+  status:              ""
+
+SP:
+  _VALUE:              Speyer
+  bundesland:          Rheinland-Pfalz
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Rhein-Pfalz-Kreis, Stadt-Code bleibt gueltig
+
+SPN:
+  _VALUE:              Spree-Neiße (Forst)
+  bundesland:          Brandenburg
+  status:              ""
+
+SR:
+  _VALUE:              Straubing
+  bundesland:          Bayern
+  status:              ""
+
+STA:
+  _VALUE:              Starnberg
+  bundesland:          Bayern
+  status:              ""
+
+STD:
+  _VALUE:              Stade
+  bundesland:          Niedersachsen
+  status:              ""
+
+STE:
+  _VALUE:              Staffelstein
+  bundesland:          Bayern
+  status:              ""
+
+STL:
+  _VALUE:              Stollberg
+  bundesland:          Sachsen
+  status:              ""
+
+SU:
+  _VALUE:              Rhein-Sieg-Kreis (Siegburg)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+SUL:
+  _VALUE:              Sulzbach-Rosenberg
+  bundesland:          Bayern
+  status:              ""
+
+SÜW:
+  _VALUE:              Südliche Weinstraße (Landau)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+SW:
+  _VALUE:              Schweinfurt
+  bundesland:          Bayern
+  status:              ""
+
+SZ:
+  _VALUE:              Salzgitter
+  bundesland:          Niedersachsen
+  status:              ""
+
+TBB:
+  _VALUE:              Main-Tauber-Kreis (Tauberbischofsheim)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+TE:
+  _VALUE:              Tecklenburg
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+TF:
+  _VALUE:              Teltow-Fläming (Luckenwalde)
+  bundesland:          Brandenburg
+  status:              ""
+
+TG:
+  _VALUE:              Torgau
+  bundesland:          Sachsen
+  status:              ""
+
+TIR:
+  _VALUE:              Tirschenreuth
+  bundesland:          Bayern
+  status:              ""
+
+TO:
+  _VALUE:              Torgau-Oschatz (Torgau)
+  bundesland:          Sachsen
+  status:              ""
+
+TÖL:
+  _VALUE:              Bad Tölz-Wolfratshausen (Bad Tölz)
+  bundesland:          Bayern
+  status:              ""
+
+TR:
+  _VALUE:              Trier
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+TS:
+  _VALUE:              Traunstein
+  bundesland:          Bayern
+  status:              ""
+
+TÜ:
+  _VALUE:              Tübingen
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+TUT:
+  _VALUE:              Tuttlingen
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+UE:
+  _VALUE:              Uelzen
+  bundesland:          Niedersachsen
+  status:              ""
+
+UER:
+  _VALUE:              Uecker-Randow (Pasewalk)
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+UH:
+  _VALUE:              Unstrut-Hainich (Mühlhausen)
+  bundesland:          Thüringen
+  status:              ""
+
+UL:
+  _VALUE:              Ulm
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+UM:
+  _VALUE:              Uckermark (Prenzlau)
+  bundesland:          Brandenburg
+  status:              ""
+
+UN:
+  _VALUE:              Unna
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+V:
+  _VALUE:              Vogtlandkreis (Plauen)
+  bundesland:          Sachsen
+  status:              ""
+
+VB:
+  _VALUE:              Vogelsbergkreis (Lauterbach)
+  bundesland:          Hessen
+  status:              ""
+
+VEC:
+  _VALUE:              Vechta
+  bundesland:          Niedersachsen
+  status:              ""
+
+VER:
+  _VALUE:              Verden (Aller)
+  bundesland:          Niedersachsen
+  status:              ""
+
+VIB:
+  _VALUE:              Vilsbiburg
+  bundesland:          Bayern
+  status:              ""
+
+VIE:
+  _VALUE:              Viersen
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+VS:
+  _VALUE:              Schwarzwald-Baar-Kreis (Villingen-Schwenningen)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+W:
+  _VALUE:              Wuppertal
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+WA:
+  _VALUE:              Waldeck (Korbach)
+  bundesland:          Hessen
+  status:              ""
+
+WAF:
+  _VALUE:              Warendorf
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+WAK:
+  _VALUE:              Wartburgkreis (Bad Salzungen)
+  bundesland:          Thüringen
+  status:              ""
+
+WB:
+  _VALUE:              Wittenberg
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+WE:
+  _VALUE:              Weimar
+  bundesland:          Thüringen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Weimarer Land, Stadt-Code bleibt gueltig
+
+WEN:
+  _VALUE:              Weiden in der Oberpfalz
+  bundesland:          Bayern
+  status:              ""
+
+WER:
+  _VALUE:              Wertingen
+  bundesland:          Bayern
+  status:              ""
+
+WES:
+  _VALUE:              Wesel
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+WF:
+  _VALUE:              Wolfenbüttel
+  bundesland:          Niedersachsen
+  status:              ""
+
+WHV:
+  _VALUE:              Wilhelmshaven
+  bundesland:          Niedersachsen
+  status:              ""
+
+WI:
+  _VALUE:              Wiesbaden
+  bundesland:          Hessen
+  status:              ""
+
+WIL:
+  _VALUE:              Bernkastel-Wittlich (Wittlich)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+WIT:
+  _VALUE:              Witten
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+WL:
+  _VALUE:              Harburg (Winsen)
+  bundesland:          Niedersachsen
+  status:              ""
+
+WM:
+  _VALUE:              Weilheim-Schongau (Weilheim)
+  bundesland:          Bayern
+  status:              ""
+
+WN:
+  _VALUE:              Rems-Murr-Kreis (Waiblingen)
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+WND:
+  _VALUE:              St. Wendel
+  bundesland:          Saarland
+  status:              ""
+
+WO:
+  _VALUE:              Worms
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+WOB:
+  _VALUE:              Wolfsburg
+  bundesland:          Niedersachsen
+  status:              ""
+
+WOL:
+  _VALUE:              Wolfach
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+WR:
+  _VALUE:              Wernigerode
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+WST:
+  _VALUE:              Ammerland (Westerstede)
+  bundesland:          Niedersachsen
+  status:              ""
+
+WT:
+  _VALUE:              Waldshut (Waldshut-Tiengen)
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+WTM:
+  _VALUE:              Wittmund
+  bundesland:          Niedersachsen
+  status:              ""
+
+WÜ:
+  _VALUE:              Würzburg
+  bundesland:          Bayern
+  status:              ""
+
+WUG:
+  _VALUE:              Weißenburg-Gunzenhausen (Weißenburg)
+  bundesland:          Bayern
+  status:              ""
+
+WÜM:
+  _VALUE:              Waldmünchen
+  bundesland:          Bayern
+  status:              ""
+
+WUN:
+  _VALUE:              Wunsiedel
+  bundesland:          Bayern
+  status:              ""
+
+WW:
+  _VALUE:              Westerwaldkreis (Montabaur)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+WZ:
+  _VALUE:              Wetzlar
+  bundesland:          Hessen
+  status:              ""
+
+ZE:
+  _VALUE:              Zerbst
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+ZEL:
+  _VALUE:              Zell (Mosel)
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+ZI:
+  _VALUE:              Löbau-Zittau (Zittau)
+  bundesland:          Sachsen
+  status:              ""
+
+ZW:
+  _VALUE:              Zweibrücken
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Augsburg:
+  _VALUE:              A
+  bundesland:          Bayern
+  status:              ""
+
+Ostalbkreis (Aalen):
+  _VALUE:              AA
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Aschaffenburg:
+  _VALUE:              AB
+  bundesland:          Bayern
+  status:              ""
+
+Altenburger Land (Altenburg):
+  _VALUE:              ABG
+  bundesland:          Bayern
+  status:              ""
+
+Aachen:
+  _VALUE:              AC
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Auerbach:
+  _VALUE:              AE
+  bundesland:          Sachsen
+  status:              ""
+
+Ahaus:
+  _VALUE:              AH
+  bundesland:          Niedersachsen
+  status:              ""
+
+Bad Aibling:
+  _VALUE:              AIB
+  bundesland:          Bayern
+  status:              ""
+
+Aichach-Friedberg (Aichach):
+  _VALUE:              AIC
+  bundesland:          Bayern
+  status:              ""
+
+Altenkirchen (Westerwald):
+  _VALUE:              AK
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Altena (Westfalen):
+  _VALUE:              AL
+  bundesland:          Nordrhein-Westfalen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Märkischer Kreis
+
+Alfeld (Leine):
+  _VALUE:              ALF
+  bundesland:          Niedersachsen
+  status:              ""
+
+Alsfeld (Oberhessen):
+  _VALUE:              ALS
+  bundesland:          Hessen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Vogelsbergkreis
+
+Alzenau (Unterfranken):
+  _VALUE:              ALZ
+  bundesland:          Bayern
+  status:              ""
+
+Amberg:
+  _VALUE:              AM
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Kreis Amberg-Sulzbach, Stadt-Code bleibt gueltig
+
+Ansbach:
+  _VALUE:              AN
+  bundesland:          Bayern
+  status:              ""
+
+Annaberg-Buchholz:
+  _VALUE:              ANA
+  bundesland:          Sachsen
+  status:              ""
+
+Angermünde:
+  _VALUE:              ANG
+  bundesland:          Brandenburg
+  status:              ""
+
+Anklam:
+  _VALUE:              ANK
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Altötting:
+  _VALUE:              AÖ
+  bundesland:          Bayern
+  status:              ""
+
+Weimarer Land (Apolda):
+  _VALUE:              AP
+  bundesland:          Thüringen
+  status:              ""
+
+Arnsberg (Westfalen):
+  _VALUE:              AR
+  bundesland:          Nordrhein-Westfalen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Hochsauerlandkreis
+
+Arnstadt:
+  _VALUE:              ARN
+  bundesland:          Thüringen
+  status:              ""
+
+Amberg-Sulzbach:
+  _VALUE:              AS
+  bundesland:          Bayern
+  status:              ""
+
+Aue:
+  _VALUE:              AU
+  bundesland:          Sachsen
+  status:              ""
+
+Aurich:
+  _VALUE:              AUR
+  bundesland:          Niedersachsen
+  status:              ""
+
+Ahrweiler (Bad Neuenahr-Ahrweiler):
+  _VALUE:              AW
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Alzey-Worms (Alzey):
+  _VALUE:              AZ
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Berlin:
+  _VALUE:              B
+  bundesland:          Berlin
+  status:              ""
+
+Bamberg:
+  _VALUE:              BA
+  bundesland:          Bayern
+  status:              ""
+
+Baden-Baden:
+  _VALUE:              BAD
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Barnim (Eberswalde):
+  _VALUE:              BAR
+  bundesland:          Brandenburg
+  status:              ""
+
+Böblingen:
+  _VALUE:              BB
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Bernburg:
+  _VALUE:              BBG
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Biberach an der Riß:
+  _VALUE:              BC
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Buchen (Odenwald):
+  _VALUE:              BCH
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Belzig:
+  _VALUE:              BEL
+  bundesland:          Brandenburg
+  status:              ""
+
+Bernau bei Berlin:
+  _VALUE:              BER
+  bundesland:          Brandenburg
+  status:              ""
+
+Steinfurt (Burgsteinfurt):
+  _VALUE:              BF
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Berchtesgaden:
+  _VALUE:              BGD
+  bundesland:          Bayern
+  status:              ""
+
+Berchtesgadener Land (Bad Reichenhall):
+  _VALUE:              BGL
+  bundesland:          Bayern
+  status:              ""
+
+Bühl (Baden):
+  _VALUE:              BH
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Bielefeld:
+  _VALUE:              BI
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Biedenkopf:
+  _VALUE:              BID
+  bundesland:          Hessen
+  status:              ""
+
+Bingen am Rhein:
+  _VALUE:              BIN
+  bundesland:          Hessen
+  status:              ""
+
+Birkenfeld (Nahe):
+  _VALUE:              BIR
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Bitburg-Prüm (Bitburg):
+  _VALUE:              BIT
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Backnang:
+  _VALUE:              BK
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Zollernalbkreis (Balingen):
+  _VALUE:              BL
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Burgenlandkreis (Naumburg):
+  _VALUE:              BLK
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Erftkreis (Bergheim):
+  _VALUE:              BM
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Bonn:
+  _VALUE:              BN
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Bochum:
+  _VALUE:              BO
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Borken:
+  _VALUE:              BOR
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Bottrop:
+  _VALUE:              BOT
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Bruchsal:
+  _VALUE:              BR
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Wesermarsch (Brake):
+  _VALUE:              BRA
+  bundesland:          Niedersachsen
+  status:              ""
+
+Brandenburg an der Havel:
+  _VALUE:              BRB
+  bundesland:          Brandenburg
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Kreis Potsdam-Mittelmark, Stadt-Code bleibt gueltig
+
+Burg:
+  _VALUE:              BRG
+  bundesland:          Brandenburg
+  status:              ""
+
+Brilon:
+  _VALUE:              BRI
+  bundesland:          Nordrhein-Westfalen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Hochsauerlandkreis
+
+Bad Brückenau:
+  _VALUE:              BRK
+  bundesland:          Bayern
+  status:              ""
+
+Bremervörde:
+  _VALUE:              BRV
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Braunschweig:
+  _VALUE:              BS
+  bundesland:          Niedersachsen
+  status:              ""
+
+Bersenbrück:
+  _VALUE:              BSB
+  bundesland:          Niedersachsen
+  status:              ""
+
+Beeskow:
+  _VALUE:              BSK
+  bundesland:          Brandenburg
+  status:              ""
+
+Bayreuth:
+  _VALUE:              BT
+  bundesland:          Bayern
+  status:              ""
+
+Bitterfeld:
+  _VALUE:              BTF
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Büdingen (Oberhessen):
+  _VALUE:              BÜD
+  bundesland:          Hessen
+  status:              ""
+
+Burglengenfeld:
+  _VALUE:              BUL
+  bundesland:          Bayern
+  status:              ""
+
+Büren (Westfalen):
+  _VALUE:              BÜR
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Büsingen am Hochrhein:
+  _VALUE:              BÜS
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Bützow:
+  _VALUE:              BÜZ
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Bautzen:
+  _VALUE:              BZ
+  bundesland:          Sachsen
+  status:              ""
+
+Chemnitz:
+  _VALUE:              C
+  bundesland:          Sachsen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Zwickau, Stadt-Code bleibt gueltig
+
+Calau:
+  _VALUE:              CA
+  bundesland:          Brandenburg
+  status:              ""
+
+Castrop-Rauxel:
+  _VALUE:              CAS
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Cottbus:
+  _VALUE:              CB
+  bundesland:          Brandenburg
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Spree-Neiße, Stadt-Code bleibt gueltig
+
+Celle:
+  _VALUE:              CE
+  bundesland:          Niedersachsen
+  status:              ""
+
+Cham (Oberpfalz):
+  _VALUE:              CHA
+  bundesland:          Bayern
+  status:              ""
+
+Cloppenburg:
+  _VALUE:              CLP
+  bundesland:          Niedersachsen
+  status:              ""
+
+Coburg:
+  _VALUE:              CO
+  bundesland:          Bayern
+  status:              ""
+
+Cochem-Zell (Cochem):
+  _VALUE:              COC
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Coesfeld (Westfalen):
+  _VALUE:              COE
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Crailsheim:
+  _VALUE:              CR
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Cuxhaven:
+  _VALUE:              CUX
+  bundesland:          Niedersachsen
+  status:              ""
+
+Calw:
+  _VALUE:              CW
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Düsseldorf:
+  _VALUE:              D
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Darmstadt:
+  _VALUE:              DA
+  bundesland:          Hessen
+  status:              ""
+
+Dachau:
+  _VALUE:              DAH
+  bundesland:          Bayern
+  status:              ""
+
+Lüchow-Dannenberg (Lüchow):
+  _VALUE:              DAN
+  bundesland:          Niedersachsen
+  status:              ""
+
+Daun (Eifel):
+  _VALUE:              DAU
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Bad Doberan:
+  _VALUE:              DBR
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Dresden:
+  _VALUE:              DD
+  bundesland:          Sachsen
+  status:              ""
+
+Dessau:
+  _VALUE:              DE
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Deggendorf:
+  _VALUE:              DEG
+  bundesland:          Bayern
+  status:              ""
+
+Delmenhorst:
+  _VALUE:              DEL
+  bundesland:          Niedersachsen
+  status:              ""
+
+Dingolfing-Landau (Dingolfing):
+  _VALUE:              DGF
+  bundesland:          Bayern
+  status:              ""
+
+Diepholz:
+  _VALUE:              DH
+  bundesland:          Niedersachsen
+  status:              ""
+
+Dillkreis (Dillenburg):
+  _VALUE:              DIL
+  bundesland:          Hessen
+  status:              ""
+
+Dinslaken:
+  _VALUE:              DIN
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Unterlahnkreis (Diez):
+  _VALUE:              DIZ
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Dinkelsbühl:
+  _VALUE:              DKB
+  bundesland:          Bayern
+  status:              ""
+
+Döbeln:
+  _VALUE:              DL
+  bundesland:          Sachsen
+  status:              ""
+
+Dillingen an der Donau:
+  _VALUE:              DLG
+  bundesland:          Bayern
+  status:              ""
+
+Demmin:
+  _VALUE:              DM
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Düren:
+  _VALUE:              DN
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Dortmund:
+  _VALUE:              DO
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Donau-Ries (Donauwörth):
+  _VALUE:              DON
+  bundesland:          Bayern
+  status:              ""
+
+Donaueschingen:
+  _VALUE:              DS
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Lippe (Detmold):
+  _VALUE:              DT
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Duisburg:
+  _VALUE:              DU
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Duderstadt:
+  _VALUE:              DUD
+  bundesland:          Niedersachsen
+  status:              ""
+
+Bad Dürkheim (Weinstraße):
+  _VALUE:              DÜW
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Weißeritzkreis (Dippoldiswalde):
+  _VALUE:              DW
+  bundesland:          Sachsen
+  status:              ""
+
+Delitzsch:
+  _VALUE:              DZ
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Essen:
+  _VALUE:              E
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Eilenburg:
+  _VALUE:              EB
+  bundesland:          Bayern
+  status:              ""
+
+Ebersberg:
+  _VALUE:              EBE
+  bundesland:          Bayern
+  status:              ""
+
+Ebermannstadt:
+  _VALUE:              EBS
+  bundesland:          Bayern
+  status:              ""
+
+Eckernförde:
+  _VALUE:              ECK
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Erding:
+  _VALUE:              ED
+  bundesland:          Bayern
+  status:              ""
+
+Elbe-Elster (Herzberg):
+  _VALUE:              EE
+  bundesland:          Brandenburg
+  status:              ""
+
+Erfurt:
+  _VALUE:              EF
+  bundesland:          Thüringen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Sömmerda, Stadt-Code bleibt gueltig
+
+Eggenfelden:
+  _VALUE:              EG
+  bundesland:          Bayern
+  status:              ""
+
+Ehingen (Donau):
+  _VALUE:              EHI
+  bundesland:          Bayern
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Alb-Donau-Kreis
+
+Eichstätt:
+  _VALUE:              EI
+  bundesland:          Bayern
+  status:              ""
+
+Eichsfeld (Heiligenstadt):
+  _VALUE:              EIC
+  bundesland:          Thüringen
+  status:              ""
+
+Eisleben:
+  _VALUE:              EIL
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Einbeck:
+  _VALUE:              EIN
+  bundesland:          Niedersachsen
+  status:              ""
+
+Eisenberg:
+  _VALUE:              EIS
+  bundesland:          Thüringen
+  status:              ""
+
+Emsland (Meppen):
+  _VALUE:              EL
+  bundesland:          Niedersachsen
+  status:              ""
+
+Emmendingen:
+  _VALUE:              EM
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Emden:
+  _VALUE:              EMD
+  bundesland:          Niedersachsen
+  status:              ""
+
+Rhein-Lahn-Kreis (Bad Ems):
+  _VALUE:              EMS
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Ennepe-Ruhr-Kreis (Schwelm):
+  _VALUE:              EN
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Erlangen:
+  _VALUE:              ER
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Erlangen-Höchstadt, Stadt-Code bleibt gueltig
+
+Odenwaldkreis (Erbach):
+  _VALUE:              ERB
+  bundesland:          Bayern
+  status:              ""
+
+Erlangen-Höchstadt:
+  _VALUE:              ERH
+  bundesland:          Bayern
+  status:              ""
+
+Erkelenz:
+  _VALUE:              ERK
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Esslingen am Neckar:
+  _VALUE:              ES
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Eisenach:
+  _VALUE:              ESA
+  bundesland:          Thüringen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Wartburgkreis
+
+Eschenbach (Oberpfalz):
+  _VALUE:              ESB
+  bundesland:          Bayern
+  status:              ""
+
+Werra-Meißner-Kreis (Eschwege):
+  _VALUE:              ESW
+  bundesland:          Hessen
+  status:              ""
+
+Euskirchen:
+  _VALUE:              EU
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Eutin:
+  _VALUE:              EUT
+  bundesland:          Schleswig-Holstein
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Ostholstein
+
+Frankfurt am Main:
+  _VALUE:              F
+  bundesland:          Hessen
+  status:              ""
+
+Soltau-Fallingbostel (Fallingbostel):
+  _VALUE:              FAL
+  bundesland:          Niedersachsen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Heidekreis
+
+Wetteraukreis (Friedberg):
+  _VALUE:              FB
+  bundesland:          Hessen
+  status:              ""
+
+Fulda:
+  _VALUE:              FD
+  bundesland:          Hessen
+  status:              ""
+
+Friedberg (Bayern):
+  _VALUE:              FDB
+  bundesland:          Bayern
+  status:              ""
+
+Freudenstadt:
+  _VALUE:              FDS
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Feuchtwangen:
+  _VALUE:              FEU
+  bundesland:          Bayern
+  status:              ""
+
+Frankfurt (Oder):
+  _VALUE:              FF
+  bundesland:          Brandenburg
+  status:              ""
+
+Fürstenfeldbruck:
+  _VALUE:              FFB
+  bundesland:          Bayern
+  status:              ""
+
+Freiberg (Sachsen):
+  _VALUE:              FG
+  bundesland:          Sachsen
+  status:              ""
+
+Main-Taunus-Kreis (Frankfurt-Höchst):
+  _VALUE:              FH
+  bundesland:          Hessen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Main-Taunus-Kreis
+
+Flensburg:
+  _VALUE:              FL
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Bodenseekreis (Friedrichshafen):
+  _VALUE:              FN
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Forchheim:
+  _VALUE:              FO
+  bundesland:          Bayern
+  status:              ""
+
+Freiburg im Breisgau:
+  _VALUE:              FR
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Freyung-Grafenau (Freyung):
+  _VALUE:              FRG
+  bundesland:          Bayern
+  status:              ""
+
+Friesland (Jever):
+  _VALUE:              FRI
+  bundesland:          Niedersachsen
+  status:              ""
+
+Freising:
+  _VALUE:              FS
+  bundesland:          Bayern
+  status:              ""
+
+Frankenthal (Pfalz):
+  _VALUE:              FT
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Bad Dürkheim und Rhein-Pfalz-Kreis, Stadt-Code bleibt gueltig
+
+Fürth:
+  _VALUE:              FÜ
+  bundesland:          Bayern
+  status:              ""
+
+Füssen:
+  _VALUE:              FÜS
+  bundesland:          Bayern
+  status:              ""
+
+Fürstenwalde:
+  _VALUE:              FW
+  bundesland:          Brandenburg
+  status:              ""
+
+Fritzlar-Homberg (Fritzlar):
+  _VALUE:              FZ
+  bundesland:          Hessen
+  status:              ""
+
+Gera:
+  _VALUE:              G
+  bundesland:          Thüringen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Greiz, Stadt-Code bleibt gueltig
+
+Gardelegen:
+  _VALUE:              GA
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Gandersheim (Bad Gandersheim):
+  _VALUE:              GAN
+  bundesland:          Niedersachsen
+  status:              ""
+
+Garmisch-Partenkirchen:
+  _VALUE:              GAP
+  bundesland:          Bayern
+  status:              ""
+
+Chemnitzer Land (Glauchau):
+  _VALUE:              GC
+  bundesland:          Sachsen
+  status:              ""
+
+Schwäbisch Gmünd:
+  _VALUE:              GD
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Gelsenkirchen:
+  _VALUE:              GE
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Geldern:
+  _VALUE:              GEL
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Germersheim:
+  _VALUE:              GER
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Gifhorn:
+  _VALUE:              GF
+  bundesland:          Niedersachsen
+  status:              ""
+
+Groß-Gerau:
+  _VALUE:              GG
+  bundesland:          Hessen
+  status:              ""
+
+Gießen:
+  _VALUE:              GI
+  bundesland:          Hessen
+  status:              ""
+
+Rheinisch-Bergischer Kreis (Bergisch Gladbach):
+  _VALUE:              GL
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Oberbergischer Kreis (Gummersbach):
+  _VALUE:              GM
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Gelnhausen:
+  _VALUE:              GN
+  bundesland:          Hessen
+  status:              ""
+
+Göttingen:
+  _VALUE:              GÖ
+  bundesland:          Niedersachsen
+  status:              ""
+
+Göppingen:
+  _VALUE:              GP
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Görlitz:
+  _VALUE:              GR
+  bundesland:          Sachsen
+  status:              ""
+
+Goslar:
+  _VALUE:              GS
+  bundesland:          Niedersachsen
+  status:              ""
+
+Gütersloh:
+  _VALUE:              GT
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Gotha:
+  _VALUE:              GTH
+  bundesland:          Thüringen
+  status:              ""
+
+Güstrow:
+  _VALUE:              GÜ
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Guben:
+  _VALUE:              GUB
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Gunzenhausen:
+  _VALUE:              GUN
+  bundesland:          Bayern
+  status:              ""
+
+Grevenbroich:
+  _VALUE:              GV
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Günzburg:
+  _VALUE:              GZ
+  bundesland:          Sachsen
+  status:              ""
+
+Hannover (Region):
+  _VALUE:              H
+  bundesland:          Niedersachsen
+  status:              ""
+
+Hagen:
+  _VALUE:              HA
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Hammelburg:
+  _VALUE:              HAB
+  bundesland:          Bayern
+  status:              ""
+
+Halle (Saale):
+  _VALUE:              HAL
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Hamm:
+  _VALUE:              HAM
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Haßberge (Haßfurt):
+  _VALUE:              HAS
+  bundesland:          Bayern
+  status:              ""
+
+Bremen und Bremerhaven:
+  _VALUE:              HB
+  bundesland:          Bremen
+  status:              ""
+
+Hildburghausen:
+  _VALUE:              HBN
+  bundesland:          Thüringen
+  status:              ""
+
+Halberstadt:
+  _VALUE:              HBS
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Rhein-Neckar-Kreis (Heidelberg):
+  _VALUE:              HD
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Heidenheim an der Brenz:
+  _VALUE:              HDH
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Helmstedt:
+  _VALUE:              HE
+  bundesland:          Niedersachsen
+  status:              ""
+
+Hersfeld-Rotenburg (Bad Hersfeld):
+  _VALUE:              HEF
+  bundesland:          Hessen
+  status:              ""
+
+Dithmarschen (Heide):
+  _VALUE:              HEI
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Herne:
+  _VALUE:              HER
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Herford:
+  _VALUE:              HF
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Hansestadt Hamburg:
+  _VALUE:              HH
+  bundesland:          Hamburg
+  status:              ""
+
+Hochtaunuskreis (Bad Homburg):
+  _VALUE:              HG
+  bundesland:          Hessen
+  status:              ""
+
+Hildesheim:
+  _VALUE:              HI
+  bundesland:          Niedersachsen
+  status:              ""
+
+Hilpoltstein (Mittelfranken):
+  _VALUE:              HIP
+  bundesland:          Bayern
+  status:              ""
+
+Lübeck:
+  _VALUE:              HL
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Hameln-Pyrmont (Hameln):
+  _VALUE:              HM
+  bundesland:          Niedersachsen
+  status:              ""
+
+Heilbronn:
+  _VALUE:              HN
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Hof:
+  _VALUE:              HO
+  bundesland:          Bayern
+  status:              ""
+
+Holzminden:
+  _VALUE:              HOL
+  bundesland:          Niedersachsen
+  status:              ""
+
+Saar-Pfalz-Kreis (Homburg):
+  _VALUE:              HOM
+  bundesland:          Saarland
+  status:              ""
+
+Horb am Neckar:
+  _VALUE:              HOR
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Bergstraße (Heppenheim):
+  _VALUE:              HP
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Schwalm-Eder-Kreis (Homberg):
+  _VALUE:              HR
+  bundesland:          Hessen
+  status:              ""
+
+Rostock:
+  _VALUE:              HRO
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Heinsberg:
+  _VALUE:              HS
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Hochsauerlandkreis (Meschede):
+  _VALUE:              HSK
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Main-Kinzig-Kreis (Hanau):
+  _VALUE:              HU
+  bundesland:          Hessen
+  status:              ""
+
+Husum:
+  _VALUE:              HUS
+  bundesland:          Schleswig-Holstein
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Nordfriesland
+
+Havelland (Rathenow):
+  _VALUE:              HVL
+  bundesland:          Brandenburg
+  status:              ""
+
+Höxter:
+  _VALUE:              HX
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Herzberg:
+  _VALUE:              HZ
+  bundesland:          Niedersachsen
+  status:              ""
+
+Ilmkreis (Arnstadt):
+  _VALUE:              IK
+  bundesland:          Thüringen
+  status:              ""
+
+Ilmenau:
+  _VALUE:              IL
+  bundesland:          Thüringen
+  status:              ""
+
+Ingolstadt:
+  _VALUE:              IN
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Eichstätt, Stadt-Code bleibt gueltig
+
+Iserlohn:
+  _VALUE:              IS
+  bundesland:          Nordrhein-Westfalen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Märkischer Kreis
+
+Steinburg (Itzehoe):
+  _VALUE:              IZ
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Jena:
+  _VALUE:              J
+  bundesland:          Thüringen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Saale-Holzland-Kreis, Stadt-Code bleibt gueltig
+
+Jessen:
+  _VALUE:              JE
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Friesland (Jever):
+  _VALUE:              JEV
+  bundesland:          Niedersachsen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Friesland
+
+Jerichower Land (Burg):
+  _VALUE:              JL
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Jülich:
+  _VALUE:              JÜL
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Köln:
+  _VALUE:              K
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Karlsruhe:
+  _VALUE:              KA
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Waldeck-Frankenberg (Korbach):
+  _VALUE:              KB
+  bundesland:          Hessen
+  status:              ""
+
+Kronach:
+  _VALUE:              KC
+  bundesland:          Bayern
+  status:              ""
+
+Kempten (Allgäu):
+  _VALUE:              KE
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Oberallgäu, Stadt-Code bleibt gueltig
+
+Kelheim:
+  _VALUE:              KEH
+  bundesland:          Bayern
+  status:              ""
+
+Kehl:
+  _VALUE:              KEL
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Kemnath:
+  _VALUE:              KEM
+  bundesland:          Bayern
+  status:              ""
+
+Kaufbeuren:
+  _VALUE:              KF
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Ostallgäu, Stadt-Code bleibt gueltig
+
+Bad Kissingen:
+  _VALUE:              KG
+  bundesland:          Bayern
+  status:              ""
+
+Bad Kreuznach:
+  _VALUE:              KH
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Kiel:
+  _VALUE:              KI
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Donnersbergkreis (Kirchheimbolanden):
+  _VALUE:              KIB
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Kaiserslautern:
+  _VALUE:              KL
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Kleve:
+  _VALUE:              KLE
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Kamenz:
+  _VALUE:              KM
+  bundesland:          Sachsen
+  status:              ""
+
+Konstanz:
+  _VALUE:              KN
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Koblenz:
+  _VALUE:              KO
+  bundesland:          Rheinland-Pfalz
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Kreis Mayen-Koblenz, Stadt-Code bleibt gueltig
+
+Krefeld:
+  _VALUE:              KR
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Kassel:
+  _VALUE:              KS
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Kitzingen:
+  _VALUE:              KT
+  bundesland:          Bayern
+  status:              ""
+
+Kulmbach:
+  _VALUE:              KU
+  bundesland:          Bayern
+  status:              ""
+
+Hohenlohe-Kreis (Künzelsau):
+  _VALUE:              KÜN
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Kusel:
+  _VALUE:              KUS
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Kyffhäuserkreis (Sondershausen):
+  _VALUE:              KYF
+  bundesland:          Thüringen
+  status:              ""
+
+Leipzig:
+  _VALUE:              L
+  bundesland:          Sachsen
+  status:              ""
+
+Landshut:
+  _VALUE:              LA
+  bundesland:          Bayern
+  status:              ""
+
+Landau an der Isar:
+  _VALUE:              LAN
+  bundesland:          Bayern
+  status:              ""
+
+Nürnberger Land (Lauf):
+  _VALUE:              LAU
+  bundesland:          Bayern
+  status:              ""
+
+Ludwigsburg:
+  _VALUE:              LB
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Luckau:
+  _VALUE:              LC
+  bundesland:          Brandenburg
+  status:              ""
+
+Landau in der Pfalz:
+  _VALUE:              LD
+  bundesland:          Rheinland-Pfalz
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Kreis Südliche Weinstraße, Stadt-Code bleibt gueltig
+
+Lahn-Dill-Kreis (Wetzlar):
+  _VALUE:              LDK
+  bundesland:          Hessen
+  status:              ""
+
+Dahme-Spreewald (Lübben):
+  _VALUE:              LDS
+  bundesland:          Brandenburg
+  status:              ""
+
+Lemgo:
+  _VALUE:              LE
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Leer (Ostfriesland):
+  _VALUE:              LER
+  bundesland:          Niedersachsen
+  status:              ""
+
+Leverkusen:
+  _VALUE:              LEV
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Lüneburg:
+  _VALUE:              LG
+  bundesland:          Niedersachsen
+  status:              ""
+
+Lindau (Bodensee):
+  _VALUE:              LI
+  bundesland:          Bayern
+  status:              ""
+
+Lichtenfels:
+  _VALUE:              LIF
+  bundesland:          Bayern
+  status:              ""
+
+Lingen (Ems):
+  _VALUE:              LIN
+  bundesland:          Niedersachsen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Emsland
+
+Lippe (Detmold):
+  _VALUE:              LIP
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Lübbecke (Westfalen):
+  _VALUE:              LK
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Landsberg am Lech:
+  _VALUE:              LL
+  bundesland:          Bayern
+  status:              ""
+
+Limburg-Weilburg (Limburg):
+  _VALUE:              LM
+  bundesland:          Hessen
+  status:              ""
+
+Lörrach:
+  _VALUE:              LÖ
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Oder-Spree (Beeskow):
+  _VALUE:              LOS
+  bundesland:          Brandenburg
+  status:              ""
+
+Lippstadt:
+  _VALUE:              LP
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Lahr (Schwarzwald):
+  _VALUE:              LR
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Märkischer Kreis (Lüdenscheid):
+  _VALUE:              LS
+  bundesland:          Nordrhein-Westfalen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Märkischer Kreis
+
+Bad Langensalza:
+  _VALUE:              LSZ
+  bundesland:          Thüringen
+  status:              ""
+
+Ludwigshafen am Rhein:
+  _VALUE:              LU
+  bundesland:          Rheinland-Pfalz
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Rhein-Pfalz-Kreis, Stadt-Code bleibt gueltig
+
+Ludwigslust:
+  _VALUE:              LWL
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+München:
+  _VALUE:              M
+  bundesland:          Bayern
+  status:              ""
+
+Mannheim:
+  _VALUE:              MA
+  bundesland:          Baden-Württemberg
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Rhein-Neckar-Kreis, Stadt-Code bleibt gueltig
+
+Mainburg:
+  _VALUE:              MAI
+  bundesland:          Bayern
+  status:              ""
+
+Miesbach:
+  _VALUE:              MB
+  bundesland:          Bayern
+  status:              ""
+
+Magdeburg:
+  _VALUE:              MD
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Mettmann:
+  _VALUE:              ME
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Meißen:
+  _VALUE:              MEI
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Mittlerer Erzgebirgskreis (Marienberg):
+  _VALUE:              MEK
+  bundesland:          Sachsen
+  status:              ""
+
+Melle:
+  _VALUE:              MEL
+  bundesland:          Niedersachsen
+  status:              ""
+
+Meppen:
+  _VALUE:              MEP
+  bundesland:          Niedersachsen
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Emsland
+
+Merseburg:
+  _VALUE:              MER
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Mönchengladbach:
+  _VALUE:              MG
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Bad Mergentheim:
+  _VALUE:              MGH
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Meiningen:
+  _VALUE:              MGN
+  bundesland:          Thüringen
+  status:              ""
+
+Mülheim an der Ruhr:
+  _VALUE:              MH
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Mühlhausen:
+  _VALUE:              MHL
+  bundesland:          Thüringen
+  status:              ""
+
+Minden-Lübbecke (Minden):
+  _VALUE:              MI
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Miltenberg:
+  _VALUE:              MIL
+  bundesland:          Bayern
+  status:              ""
+
+Märkischer Kreis (Lüdenscheid):
+  _VALUE:              MK
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Memmingen:
+  _VALUE:              MM
+  bundesland:          Bayern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Unterallgäu, Stadt-Code bleibt gueltig
+
+Unterallgäu (Mindelheim):
+  _VALUE:              MN
+  bundesland:          Bayern
+  status:              ""
+
+Moers:
+  _VALUE:              MO
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Märkisch-Oderland (Seelow):
+  _VALUE:              MOL
+  bundesland:          Brandenburg
+  status:              ""
+
+Neckar-Odenwald-Kreis (Mosbach):
+  _VALUE:              MOS
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Marburg-Biedenkopf (Marburg):
+  _VALUE:              MR
+  bundesland:          Hessen
+  status:              ""
+
+Münster:
+  _VALUE:              MS
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Main-Spessart (Karlstadt):
+  _VALUE:              MSP
+  bundesland:          Bayern
+  status:              ""
+
+Mecklenburg-Strelitz (Neustrelitz):
+  _VALUE:              MST
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Westerwald (Montabaur):
+  _VALUE:              MT
+  bundesland:          Rheinland-Pfalz
+  status:              BEREITS AUSGELAUFEN - nur Bestandsschutz, Abwicklung durch Westerwald
+
+Main-Taunus-Kreis (Hofheim am Taunus):
+  _VALUE:              MTK
+  bundesland:          Hessen
+  status:              ""
+
+Muldentalkreis (Grimma):
+  _VALUE:              MTL
+  bundesland:          Sachsen
+  status:              ""
+
+Mühldorf am Inn:
+  _VALUE:              MÜ
+  bundesland:          Bayern
+  status:              ""
+
+Müritz (Waren):
+  _VALUE:              MÜR
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Mittweida:
+  _VALUE:              MW
+  bundesland:          Sachsen
+  status:              ""
+
+Mayen:
+  _VALUE:              MY
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Mayen-Koblenz:
+  _VALUE:              MYK
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Mainz:
+  _VALUE:              MZ
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Merzig-Wadern (Merzig):
+  _VALUE:              MZG
+  bundesland:          Saarland
+  status:              ""
+
+Nürnberg:
+  _VALUE:              N
+  bundesland:          Bayern
+  status:              ""
+
+Nabburg:
+  _VALUE:              NAB
+  bundesland:          Bayern
+  status:              ""
+
+Nauen:
+  _VALUE:              NAU
+  bundesland:          Brandenburg
+  status:              ""
+
+Neubrandenburg:
+  _VALUE:              NB
+  bundesland:          Mecklenburg-Vorpommern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Mecklenburg-Strelitz, Stadt-Code bleibt gueltig
+
+Neuburg-Schrobenhausen (Neuburg):
+  _VALUE:              ND
+  bundesland:          Bayern
+  status:              ""
+
+Nordhausen:
+  _VALUE:              NDH
+  bundesland:          Thüringen
+  status:              ""
+
+Neuss:
+  _VALUE:              NE
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Neustadt an der Aisch-Bad Windsheim:
+  _VALUE:              NEA
+  bundesland:          Bayern
+  status:              ""
+
+Rhön-Grabfeld (Bad Neustadt):
+  _VALUE:              NES
+  bundesland:          Bayern
+  status:              ""
+
+Neustadt an der Waldnaab:
+  _VALUE:              NEW
+  bundesland:          Bayern
+  status:              ""
+
+Nordfriesland (Husum):
+  _VALUE:              NF
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Nienburg (Weser):
+  _VALUE:              NI
+  bundesland:          Niedersachsen
+  status:              ""
+
+Neunkirchen (Saar):
+  _VALUE:              NK
+  bundesland:          Saarland
+  status:              ""
+
+Neumarkt in der Oberpfalz:
+  _VALUE:              NM
+  bundesland:          Bayern
+  status:              ""
+
+Neumünster:
+  _VALUE:              NMS
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Grafschaft Bentheim (Nordhorn):
+  _VALUE:              NOH
+  bundesland:          Niedersachsen
+  status:              ""
+
+Northeim:
+  _VALUE:              NOM
+  bundesland:          Niedersachsen
+  status:              ""
+
+Norden:
+  _VALUE:              NOR
+  bundesland:          Niedersachsen
+  status:              ""
+
+Neuruppin:
+  _VALUE:              NP
+  bundesland:          Brandenburg
+  status:              ""
+
+Neuwied:
+  _VALUE:              NR
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Nürtingen:
+  _VALUE:              NT
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Neu-Ulm:
+  _VALUE:              NU
+  bundesland:          Bayern
+  status:              ""
+
+Nordvorpommern (Grimmen):
+  _VALUE:              NVP
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Neustadt an der Weinstraße:
+  _VALUE:              NW
+  bundesland:          Rheinland-Pfalz
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Bad Dürkheim, Stadt-Code bleibt gueltig
+
+Nordwestmecklenburg (Grevesmühlen):
+  _VALUE:              NWM
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Oberallgäu (Sonthofen):
+  _VALUE:              OA
+  bundesland:          Bayern
+  status:              ""
+
+Ostallgäu (Marktoberdorf):
+  _VALUE:              OAL
+  bundesland:          Bayern
+  status:              ""
+
+Oberhausen:
+  _VALUE:              OB
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Stormarn (Bad Oldesloe):
+  _VALUE:              OD
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Olpe:
+  _VALUE:              OE
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Offenbach am Main:
+  _VALUE:              OF
+  bundesland:          Hessen
+  status:              ""
+
+Ortenaukreis (Offenburg):
+  _VALUE:              OG
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Ostholstein (Eutin):
+  _VALUE:              OH
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Osterode am Harz:
+  _VALUE:              OHA
+  bundesland:          Niedersachsen
+  status:              ""
+
+Oberhavel (Oranienburg):
+  _VALUE:              OHV
+  bundesland:          Brandenburg
+  status:              ""
+
+Osterholz (Osterholz-Scharmbeck):
+  _VALUE:              OHZ
+  bundesland:          Niedersachsen
+  status:              ""
+
+Oldenburg:
+  _VALUE:              OL
+  bundesland:          Niedersachsen
+  status:              ""
+
+Ostprignitz-Ruppin (Neuruppin):
+  _VALUE:              OPR
+  bundesland:          Brandenburg
+  status:              ""
+
+Osnabrück:
+  _VALUE:              OS
+  bundesland:          Niedersachsen
+  status:              ""
+
+Oberspreewald-Lausitz (Senftenberg):
+  _VALUE:              OSL
+  bundesland:          Brandenburg
+  status:              ""
+
+Oberviechtach:
+  _VALUE:              OVI
+  bundesland:          Bayern
+  status:              ""
+
+Ostvorpommern (Anklam):
+  _VALUE:              OVP
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Potsdam:
+  _VALUE:              P
+  bundesland:          Brandenburg
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Kreis Potsdam-Mittelmark, Stadt-Code bleibt gueltig
+
+Passau:
+  _VALUE:              PA
+  bundesland:          Bayern
+  status:              ""
+
+Pfaffenhofen an der Ilm:
+  _VALUE:              PAF
+  bundesland:          Bayern
+  status:              ""
+
+Rottal-Inn (Pfarrkirchen):
+  _VALUE:              PAN
+  bundesland:          Bayern
+  status:              ""
+
+Paderborn:
+  _VALUE:              PB
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Peine:
+  _VALUE:              PE
+  bundesland:          Niedersachsen
+  status:              ""
+
+Pegnitz:
+  _VALUE:              PEG
+  bundesland:          Bayern
+  status:              ""
+
+Pforzheim:
+  _VALUE:              PF
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Pinneberg:
+  _VALUE:              PI
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Sächsische Schweiz (Pirna):
+  _VALUE:              PIR
+  bundesland:          Sachsen
+  status:              ""
+
+Plauen:
+  _VALUE:              PL
+  bundesland:          Sachsen
+  status:              ""
+
+Plön:
+  _VALUE:              PLÖ
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Potsdam-Mittelmark (Belzig):
+  _VALUE:              PM
+  bundesland:          Brandenburg
+  status:              ""
+
+Prignitz (Perleberg):
+  _VALUE:              PR
+  bundesland:          Brandenburg
+  status:              ""
+
+Prüm (Eifel):
+  _VALUE:              PRÜ
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Pirmasens:
+  _VALUE:              PS
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Prenzlau:
+  _VALUE:              PZ
+  bundesland:          Brandenburg
+  status:              ""
+
+Quedlinburg:
+  _VALUE:              QLB
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Regensburg:
+  _VALUE:              R
+  bundesland:          Bayern
+  status:              ""
+
+Rastatt:
+  _VALUE:              RA
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Reichenbach (Vogtland):
+  _VALUE:              RC
+  bundesland:          Sachsen
+  status:              ""
+
+Rendsburg-Eckernförde (Rendsburg):
+  _VALUE:              RD
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Recklinghausen:
+  _VALUE:              RE
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Regen:
+  _VALUE:              REG
+  bundesland:          Bayern
+  status:              ""
+
+Riesa-Großenhain (Großenhain):
+  _VALUE:              RG
+  bundesland:          Sachsen
+  status:              ""
+
+Roth:
+  _VALUE:              RH
+  bundesland:          Bayern
+  status:              ""
+
+Grafschaft Schaumburg (Rinteln):
+  _VALUE:              RI
+  bundesland:          Niedersachsen
+  status:              ""
+
+Rosenheim:
+  _VALUE:              RO
+  bundesland:          Bayern
+  status:              ""
+
+Rothenburg ob der Tauber:
+  _VALUE:              ROT
+  bundesland:          Bayern
+  status:              ""
+
+Rotenburg (Wümme):
+  _VALUE:              ROW
+  bundesland:          Niedersachsen
+  status:              ""
+
+Remscheid:
+  _VALUE:              RS
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Reutlingen:
+  _VALUE:              RT
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Rudolstadt:
+  _VALUE:              RU
+  bundesland:          Thüringen
+  status:              ""
+
+Rheingau-Taunus-Kreis (Rüdesheim):
+  _VALUE:              RÜD
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Rügen (Bergen):
+  _VALUE:              RÜG
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Ravensburg:
+  _VALUE:              RV
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Rottweil:
+  _VALUE:              RW
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Herzogtum Lauenburg (Ratzeburg):
+  _VALUE:              RZ
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Stuttgart:
+  _VALUE:              S
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Schwandorf:
+  _VALUE:              SAD
+  bundesland:          Bayern
+  status:              ""
+
+Altmarkkreis (Salzwedel):
+  _VALUE:              SAW
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Saarbrücken:
+  _VALUE:              SB
+  bundesland:          Saarland
+  status:              ""
+
+Schwabach:
+  _VALUE:              SC
+  bundesland:          Sachsen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Roth, Stadt-Code bleibt gueltig
+
+Stendal:
+  _VALUE:              SDL
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Segeberg (Bad Segeberg):
+  _VALUE:              SE
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Solingen:
+  _VALUE:              SG
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Schwäbisch Hall:
+  _VALUE:              SHA
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Schaumburg (Stadthagen):
+  _VALUE:              SHG
+  bundesland:          Niedersachsen
+  status:              ""
+
+Saale-Holzland-Kreis (Eisenberg):
+  _VALUE:              SHK
+  bundesland:          Thüringen
+  status:              ""
+
+Suhl:
+  _VALUE:              SHL
+  bundesland:          Thüringen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Hildburghausen, Stadt-Code bleibt gueltig
+
+Siegen:
+  _VALUE:              SI
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Sigmaringen:
+  _VALUE:              SIG
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Rhein-Hunsrück-Kreis (Simmern):
+  _VALUE:              SIM
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Schleswig-Flensburg (Schleswig):
+  _VALUE:              SL
+  bundesland:          Schleswig-Holstein
+  status:              ""
+
+Saalfeld-Rudolstadt (Saalfeld):
+  _VALUE:              SLF
+  bundesland:          Thüringen
+  status:              ""
+
+Saarlouis:
+  _VALUE:              SLS
+  bundesland:          Saarland
+  status:              ""
+
+Bad Salzungen:
+  _VALUE:              SLZ
+  bundesland:          Thüringen
+  status:              ""
+
+Schmalkalden-Meiningen (Meiningen):
+  _VALUE:              SM
+  bundesland:          Thüringen
+  status:              ""
+
+Schwerin:
+  _VALUE:              SN
+  bundesland:          Mecklenburg-Vorpommern
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Ludwiglust-Parchim, Stadt-Code bleibt gueltig
+
+Soest:
+  _VALUE:              SO
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Saale-Orla-Kreis (Schleiz):
+  _VALUE:              SOK
+  bundesland:          Thüringen
+  status:              ""
+
+Sömmerda:
+  _VALUE:              SÖM
+  bundesland:          Thüringen
+  status:              ""
+
+Sonneberg:
+  _VALUE:              SON
+  bundesland:          Thüringen
+  status:              ""
+
+Speyer:
+  _VALUE:              SP
+  bundesland:          Rheinland-Pfalz
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Rhein-Pfalz-Kreis, Stadt-Code bleibt gueltig
+
+Spree-Neiße (Forst):
+  _VALUE:              SPN
+  bundesland:          Brandenburg
+  status:              ""
+
+Straubing:
+  _VALUE:              SR
+  bundesland:          Bayern
+  status:              ""
+
+Starnberg:
+  _VALUE:              STA
+  bundesland:          Bayern
+  status:              ""
+
+Stade:
+  _VALUE:              STD
+  bundesland:          Niedersachsen
+  status:              ""
+
+Staffelstein:
+  _VALUE:              STE
+  bundesland:          Bayern
+  status:              ""
+
+Stollberg:
+  _VALUE:              STL
+  bundesland:          Sachsen
+  status:              ""
+
+Rhein-Sieg-Kreis (Siegburg):
+  _VALUE:              SU
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Sulzbach-Rosenberg:
+  _VALUE:              SUL
+  bundesland:          Bayern
+  status:              ""
+
+Südliche Weinstraße (Landau):
+  _VALUE:              SÜW
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Schweinfurt:
+  _VALUE:              SW
+  bundesland:          Bayern
+  status:              ""
+
+Salzgitter:
+  _VALUE:              SZ
+  bundesland:          Niedersachsen
+  status:              ""
+
+Main-Tauber-Kreis (Tauberbischofsheim):
+  _VALUE:              TBB
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Tecklenburg:
+  _VALUE:              TE
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Teltow-Fläming (Luckenwalde):
+  _VALUE:              TF
+  bundesland:          Brandenburg
+  status:              ""
+
+Torgau:
+  _VALUE:              TG
+  bundesland:          Sachsen
+  status:              ""
+
+Tirschenreuth:
+  _VALUE:              TIR
+  bundesland:          Bayern
+  status:              ""
+
+Torgau-Oschatz (Torgau):
+  _VALUE:              TO
+  bundesland:          Sachsen
+  status:              ""
+
+Bad Tölz-Wolfratshausen (Bad Tölz):
+  _VALUE:              TÖL
+  bundesland:          Bayern
+  status:              ""
+
+Trier:
+  _VALUE:              TR
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Traunstein:
+  _VALUE:              TS
+  bundesland:          Bayern
+  status:              ""
+
+Tübingen:
+  _VALUE:              TÜ
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Tuttlingen:
+  _VALUE:              TUT
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Uelzen:
+  _VALUE:              UE
+  bundesland:          Niedersachsen
+  status:              ""
+
+Uecker-Randow (Pasewalk):
+  _VALUE:              UER
+  bundesland:          Mecklenburg-Vorpommern
+  status:              ""
+
+Unstrut-Hainich (Mühlhausen):
+  _VALUE:              UH
+  bundesland:          Thüringen
+  status:              ""
+
+Ulm:
+  _VALUE:              UL
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Uckermark (Prenzlau):
+  _VALUE:              UM
+  bundesland:          Brandenburg
+  status:              ""
+
+Unna:
+  _VALUE:              UN
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Vogtlandkreis (Plauen):
+  _VALUE:              V
+  bundesland:          Sachsen
+  status:              ""
+
+Vogelsbergkreis (Lauterbach):
+  _VALUE:              VB
+  bundesland:          Hessen
+  status:              ""
+
+Vechta:
+  _VALUE:              VEC
+  bundesland:          Niedersachsen
+  status:              ""
+
+Verden (Aller):
+  _VALUE:              VER
+  bundesland:          Niedersachsen
+  status:              ""
+
+Vilsbiburg:
+  _VALUE:              VIB
+  bundesland:          Bayern
+  status:              ""
+
+Viersen:
+  _VALUE:              VIE
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Schwarzwald-Baar-Kreis (Villingen-Schwenningen):
+  _VALUE:              VS
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Wuppertal:
+  _VALUE:              W
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Waldeck (Korbach):
+  _VALUE:              WA
+  bundesland:          Hessen
+  status:              ""
+
+Warendorf:
+  _VALUE:              WAF
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Wartburgkreis (Bad Salzungen):
+  _VALUE:              WAK
+  bundesland:          Thüringen
+  status:              ""
+
+Wittenberg:
+  _VALUE:              WB
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Weimar:
+  _VALUE:              WE
+  bundesland:          Thüringen
+  status:              BALD AUSLAUFEND - Kreis-Anteil wird abgewickelt durch Weimarer Land, Stadt-Code bleibt gueltig
+
+Weiden in der Oberpfalz:
+  _VALUE:              WEN
+  bundesland:          Bayern
+  status:              ""
+
+Wertingen:
+  _VALUE:              WER
+  bundesland:          Bayern
+  status:              ""
+
+Wesel:
+  _VALUE:              WES
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Wolfenbüttel:
+  _VALUE:              WF
+  bundesland:          Niedersachsen
+  status:              ""
+
+Wilhelmshaven:
+  _VALUE:              WHV
+  bundesland:          Niedersachsen
+  status:              ""
+
+Wiesbaden:
+  _VALUE:              WI
+  bundesland:          Hessen
+  status:              ""
+
+Bernkastel-Wittlich (Wittlich):
+  _VALUE:              WIL
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Witten:
+  _VALUE:              WIT
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+Harburg (Winsen):
+  _VALUE:              WL
+  bundesland:          Niedersachsen
+  status:              ""
+
+Weilheim-Schongau (Weilheim):
+  _VALUE:              WM
+  bundesland:          Bayern
+  status:              ""
+
+Rems-Murr-Kreis (Waiblingen):
+  _VALUE:              WN
+  bundesland:          Nordrhein-Westfalen
+  status:              ""
+
+St. Wendel:
+  _VALUE:              WND
+  bundesland:          Saarland
+  status:              ""
+
+Worms:
+  _VALUE:              WO
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Wolfsburg:
+  _VALUE:              WOB
+  bundesland:          Niedersachsen
+  status:              ""
+
+Wolfach:
+  _VALUE:              WOL
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Wernigerode:
+  _VALUE:              WR
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Ammerland (Westerstede):
+  _VALUE:              WST
+  bundesland:          Niedersachsen
+  status:              ""
+
+Waldshut (Waldshut-Tiengen):
+  _VALUE:              WT
+  bundesland:          Baden-Württemberg
+  status:              ""
+
+Wittmund:
+  _VALUE:              WTM
+  bundesland:          Niedersachsen
+  status:              ""
+
+Würzburg:
+  _VALUE:              WÜ
+  bundesland:          Bayern
+  status:              ""
+
+Weißenburg-Gunzenhausen (Weißenburg):
+  _VALUE:              WUG
+  bundesland:          Bayern
+  status:              ""
+
+Waldmünchen:
+  _VALUE:              WÜM
+  bundesland:          Bayern
+  status:              ""
+
+Wunsiedel:
+  _VALUE:              WUN
+  bundesland:          Bayern
+  status:              ""
+
+Westerwaldkreis (Montabaur):
+  _VALUE:              WW
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Wetzlar:
+  _VALUE:              WZ
+  bundesland:          Hessen
+  status:              ""
+
+Zerbst:
+  _VALUE:              ZE
+  bundesland:          Sachsen-Anhalt
+  status:              ""
+
+Zell (Mosel):
+  _VALUE:              ZEL
+  bundesland:          Rheinland-Pfalz
+  status:              ""
+
+Löbau-Zittau (Zittau):
+  _VALUE:              ZI
+  bundesland:          Sachsen
+  status:              ""
+
+Zweibrücken:
+  _VALUE:              ZW
+  bundesland:          Rheinland-Pfalz
+  status:              ""

@@ -1,0 +1,518 @@
+# ============================================================
+#  created: 2026-07-13 17:58:15 +02:00
+#  records: 101
+# ============================================================
+
+# ============================================================
+#  abbr.yaml  –  often used abbreviations
+#  Most arrounf IT and Information Security
+#
+#  Usage:
+#    qs --db abbr.yaml csv
+#    qs --db abbr.yaml csv.references
+# ============================================================
+
+ADSL:
+  _VALUE:              Asymmetric Digital Subscriber Line
+  language:            english
+  references:          https://en.wikipedia.org/wiki/ADSL
+
+AFNIC:
+  _VALUE:              Association Française pour le Nommage Internet en Coopération
+  language:            french
+  references:          https://en.wikipedia.org/wiki/Association_fran%C3%A7aise_pour_le_nommage_Internet_en_coop%C3%A9ration
+
+AKA:
+  _VALUE:              Also Known As
+  language:            english
+  references:          ""
+
+APT:
+  _VALUE:              Advanced Persistent Threat
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Advanced_persistent_threat
+
+ARIN:
+  _VALUE:              American Registry for Internet Numbers
+  language:            english
+  references:          https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers
+
+ARP:
+  _VALUE:              Address Resolution Protocol
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Address_Resolution_Protocol
+
+ARPA:
+  _VALUE:              Advanced Research Projects Agency
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/DARPA, https://en.wikipedia.org/wiki/ARPANET]
+
+ASAP:
+  _VALUE:              As Soon As Possible
+  language:            english
+  references:          https://en.wiktionary.org/wiki/as_soon_as_possible
+
+BIND:
+  _VALUE:              Berkley Internet Name Domain Server
+  language:            english
+  references:          https://en.wikipedia.org/wiki/BIND
+
+BRB:
+  _VALUE:              Be Right Back
+  language:            english
+  references:          ""
+
+BSS:
+  _VALUE:              Business Support System
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Business_support_system
+
+ccTLD:
+  _VALUE:              Country-Code Top-Level Domain
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Top-level_domain, https://en.wikipedia.org/wiki/Country_code_top-level_domain]
+
+CERT:
+  _VALUE:              Computer Emergency Response Team
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Computer_emergency_response_team
+
+CGI:
+  _VALUE:              Common Gateway Interface
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Common_Gateway_Interface
+
+CIA:
+  _VALUE:              ["Confidentiality, Integrity and Availability", Central Intelligence Agency]
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/CIA_triad, https://en.wikipedia.org/wiki/Central_Intelligence_Agency]
+
+CIDR:
+  _VALUE:              Classless Inter-Domain Routing
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
+
+CMMC:
+  _VALUE:              Cybersecurity Maturity Model Certification
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Cybersecurity_Maturity_Model_Certification, https://dodcio.defense.gov/CMMC/]
+
+CMS:
+  _VALUE:              Content Management System
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Content_management_system
+
+CPU:
+  _VALUE:              Central Processing Unit
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Central_processing_unit
+
+CSS:
+  _VALUE:              Cascading Style Sheets
+  language:            english
+  references:          https://en.wikipedia.org/wiki/CSS
+
+CSV:
+  _VALUE:              Comma-Separated Values
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Comma-separated_values
+
+CVS:
+  _VALUE:              Concurrent Versions System
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Concurrent_Versions_System
+
+DARPA:
+  _VALUE:              Defense Advanced Research Projects Agency
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/DARPA, https://en.wikipedia.org/wiki/ARPANET]
+
+DDoS:
+  _VALUE:              Distributed Denial of Service
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/DARPA, https://en.wikipedia.org/wiki/ARPANET]
+
+DeNIC:
+  _VALUE:              Deutsches Network Information Center
+  language:            german
+  references:          https://www.denic.de/
+
+DLP:
+  _VALUE:              Data Loss Prevention
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Data_loss_prevention_software
+
+DMS:
+  _VALUE:              Document Management System
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Document_management_system
+
+DNAT:
+  _VALUE:              DestinationNetwork Address Translation
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Network_address_translation#DNAT
+
+DNS:
+  _VALUE:              Domain Name System
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Domain_Name_System
+
+DoS:
+  _VALUE:              Denial of Service
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Disk_operating_system, https://en.wikipedia.org/wiki/Denial-of-service_attack]
+
+DSL:
+  _VALUE:              Digital Subscriber Line
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Digital_subscriber_line
+
+DWDM:
+  _VALUE:              Dense Wavelength Division Multiplex
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Wavelength-division_multiplexing#Dense_WDM
+
+FIDO2:
+  _VALUE:              Fast Identity Online
+  language:            english
+  references:          https://en.wikipedia.org/wiki/FIDO_Alliance#FIDO2
+
+FTP:
+  _VALUE:              File Transfer Protocol
+  language:            english
+  references:          https://en.wikipedia.org/wiki/File_Transfer_Protocol
+
+FTPS:
+  _VALUE:              File Transfer Protocol über SSL oder TLS
+  language:            english
+  references:          https://en.wikipedia.org/wiki/FTPS
+
+git:
+  _VALUE:              No abbreviation. Just the englisch word "git".
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Git
+
+GPU:
+  _VALUE:              Graphics Processing Unit
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Graphics_processing_unit
+
+GRC:
+  _VALUE:              [Governance, Risk & Compliance]
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Governance, _risk, _and_compliance]
+
+gTLD:
+  _VALUE:              generic Top-Level Domain
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Top-level_domain, https://en.wikipedia.org/wiki/Generic_top-level_domain]
+
+HIDS:
+  _VALUE:              Host Intrusion Detection System
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Host-based_intrusion_detection_system
+
+HTML:
+  _VALUE:              Hypertext Markup Language
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/HTML, https://wiki.selfhtml.org]
+
+HTTP:
+  _VALUE:              Hypertext Transfer Protocol
+  language:            english
+  references:          https://en.wikipedia.org/wiki/HTTP
+
+HTTPS:
+  _VALUE:              HyperText Transfer Protocol Secure
+  language:            english
+  references:          https://en.wikipedia.org/wiki/HTTPS
+
+IANA:
+  _VALUE:              Internet Assigned Number Authority
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority
+
+ICS:
+  _VALUE:              Industrial Control Systems
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Industrial_control_system
+
+IDS:
+  _VALUE:              Intrusion Detection System
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Intrusion_detection_system
+
+IMAP4:
+  _VALUE:              Internet Message Protocol - Version 4
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
+
+IMAPS:
+  _VALUE:              Internet Message Protocol Secure
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol
+
+IoT:
+  _VALUE:              Internet of Things
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Internet_of_things
+
+LAN:
+  _VALUE:              Local Area Network
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Local_area_network
+
+MAC:
+  _VALUE:              [Mandantory Access Control, Media Access Control, Message Authentication Code]
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Mandatory_access_control, https://en.wikipedia.org/wiki/Medium_access_control, https://en.wikipedia.org/wiki/Message_authentication_code]
+
+MAN:
+  _VALUE:              Metroploitan Area Network
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Metropolitan_area_network
+
+NAS:
+  _VALUE:              Network Attached Storage
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Network-attached_storage
+
+NAT:
+  _VALUE:              Network Address Translation
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Network_address_translation
+
+NIDS:
+  _VALUE:              Network Intrusion Detection System
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Intrusion_detection_system
+
+NIST:
+  _VALUE:              National Institute of Standards and Technology
+  language:            english
+  references:          ""
+
+NOC:
+  _VALUE:              Network Operation Center
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Network_operations_center
+
+NSS:
+  _VALUE:              Network Security Services
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Network_Security_Services
+
+nTLD:
+  _VALUE:              New gTLD
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Top-level_domain
+
+OSS:
+  _VALUE:              Operational Support System
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Operations_support_system
+
+OT:
+  _VALUE:              Operational Technology
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Operational_technology
+
+PAT:
+  _VALUE:              Port Address Translation
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Network_address_translation#MASQUERADING
+
+PHP:
+  _VALUE:              "PHP: Hypertext Preprocessor"
+  language:            english
+  references:          https://en.wikipedia.org/wiki/PHP
+
+POP3:
+  _VALUE:              Post Office Protocol - Version 3
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Post_Office_Protocol
+
+POP3S:
+  _VALUE:              Post Office Protocol - Version 3 Secure
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Post_Office_Protocol
+
+RADAR:
+  _VALUE:              Radio Detecting and Ranging
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Radar
+
+RFC:
+  _VALUE:              Request for Comments
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Request_for_Comments, https://www.rfc-editor.org/]
+
+RIPE:
+  _VALUE:              Réseaux IP Européens
+  language:            french
+  references:          https://en.wikipedia.org/wiki/RIPE
+
+SAN:
+  _VALUE:              Storage Area Network
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Storage_area_network
+
+SBC:
+  _VALUE:              Single Board Computer
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Single-board_computer
+
+SCP:
+  _VALUE:              Secure Copy
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Secure_copy_protocol
+
+SD-WAN:
+  _VALUE:              Software-Defined Wide Area Network
+  language:            english
+  references:          https://en.wikipedia.org/wiki/SD-WAN
+
+SDH:
+  _VALUE:              Synchrone Digitale Hierarchie
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Synchronous_optical_networking
+
+SDN:
+  _VALUE:              Software-Definded Networking
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Software-defined_networking
+
+SFTP:
+  _VALUE:              SSH File Transfer Protocol
+  language:            english
+  references:          https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol
+
+SIEM:
+  _VALUE:              Security Information and Event Management
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Security_information_and_event_management
+
+SMTP:
+  _VALUE:              Simple Mail Transfer Protocol
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
+
+SNAT:
+  _VALUE:              Source Network Address Translation
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Network_address_translation#SNAT
+
+SOC:
+  _VALUE:              Seccurity Operation Center
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Security_operations_center
+
+SQL:
+  _VALUE:              Structured Query Language
+  language:            english
+  references:          https://en.wikipedia.org/wiki/SQL
+
+SRI:
+  _VALUE:              Stanford Research Institute
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/SRI_International, https://www.sri.com/]
+
+SSH:
+  _VALUE:              Secure Shell
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Secure_Shell
+
+SSL:
+  _VALUE:              Secure Sockets Layer
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0, _2.0, _and_3.0]
+
+sTLD:
+  _VALUE:              sponsored Top-Level Domains
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Top-level_domain, https://en.wikipedia.org/wiki/Sponsored_top-level_domain]
+
+SVN:
+  _VALUE:              Subversion
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Apache_Subversion
+
+TCP/IP:
+  _VALUE:              Transmission Control Protocol / Internet Protocol
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Internet_protocol_suite
+
+TL;DR:
+  _VALUE:              Too Long; Didn't Read
+  language:            english
+  references:          https://en.wikipedia.org/wiki/TL;DR
+
+TLD:
+  _VALUE:              Top-Level Domain
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Top-level_domain
+
+TLS:
+  _VALUE:              Transport Layer Security
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Transport_Layer_Security
+
+UCLA:
+  _VALUE:              [University of California, Los Angeles]
+  language:            english
+  references:          [https://de.wikipedia.org/wiki/University_of_California, _Los_Angeles, https://www.ucla.edu/]
+
+URI:
+  _VALUE:              Uniform Resource Identifier
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+
+URL:
+  _VALUE:              Uniform Resource Locator
+  language:            english
+  references:          https://en.wikipedia.org/wiki/URL
+
+URN:
+  _VALUE:              Uniform Resource Name
+  language:            english
+  references:          ""
+
+uTLD:
+  _VALUE:              unsponsored Top-Level Domains
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Top-level_domain, https://en.wikipedia.org/wiki/Unsponsored_top-level_domain]
+
+VCS:
+  _VALUE:              Version Control System
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Version_control
+
+VPN:
+  _VALUE:              Virtual Private Network
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Virtual_private_network
+
+W3C:
+  _VALUE:              World Wide Web Consortium
+  language:            english
+  references:          [https://en.wikipedia.org/wiki/Virtual_private_network, https://www.w3.org/]
+
+WAN:
+  _VALUE:              Wide Area Network
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Wide_area_network
+
+WDM:
+  _VALUE:              Wavelength Division Multiplex
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Wavelength-division_multiplexing
+
+WLAN:
+  _VALUE:              Wireless Local Area Network
+  language:            english
+  references:          https://en.wikipedia.org/wiki/Wireless_LAN
+
+XHTML:
+  _VALUE:              Extensible Hypertext Transfer Protocol
+  language:            english
+  references:          https://en.wikipedia.org/wiki/XHTML
