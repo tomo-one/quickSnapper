@@ -66,16 +66,17 @@ quickSnapper-<platform>-vX.Y.Z/
   ├── data/
   │   ├── qs_demo.yaml          demo data (playground; overwritten by updates)
   │   ├── cc.yaml               extra DB: country codes, incl. reverse lookup
-  │   └── cc.xlsx               Excel source of cc.yaml
+  │   └── xlsx/
+  │       └── cc.xlsx           Excel source of cc.yaml
   ├── docs/
   │   ├── README.md             full documentation (English)
   │   └── README.de.md          full documentation (German)
-  └── src/
+  └── tools/
       ├── qs_excel_to_yaml.py   script: Excel -> YAML data files
       └── qs_yaml_to_excel.py   script: YAML data files -> Excel (round trip)
 ```
 
-The scripts under `src/` require a Python installation (3.10+,
+The scripts under `tools/` require a Python installation (3.10+,
 `pip install openpyxl pyyaml`) — the `qs` binary itself does not.
 
 ## Community data
@@ -84,15 +85,16 @@ More lookup DBs (e.g. `kfz.yaml`, German license plate codes) live in
 [community-data/](community-data) on this repo's `main` branch instead of
 being bundled in the release ZIP — new or updated ones show up here
 without needing a new quickSnapper release. Fetch one straight into your
-`data/` folder:
+`data/` folder (`.xlsx` files go into `data/xlsx/`):
 
 ```
 qs --fetch-db          # list what's available
 qs --fetch-db kfz      # download kfz.yaml into data/
 ```
 
-Excel sources for these files (so they can be edited and reconverted) live
-under [community-data/xlsx/](community-data/xlsx).
+`cc.yaml`/`cc.xlsx` are here too, so they can be restored the same way if
+ever deleted by accident. Excel sources live under
+[community-data/xlsx/](community-data/xlsx).
 
 ## License
 
