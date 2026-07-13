@@ -100,4 +100,4 @@ under [community-data/xlsx/](community-data/xlsx).
 
 ---
 
-Version 0.9.8 — TOMO
+Version 0.10.0 — TOMO
