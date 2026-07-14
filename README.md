@@ -66,6 +66,7 @@ quickSnapper-<platform>-vX.Y.Z/
   ├── data/
   │   ├── qs_demo.yaml          demo data (playground; overwritten by updates)
   │   ├── cc.yaml               extra DB: country codes, incl. reverse lookup
+  │   ├── ascii.yaml            extra DB: ASCII table (dec/hex/oct/bin, control-char meanings)
   │   └── xlsx/
   │       └── cc.xlsx           Excel source of cc.yaml
   ├── docs/
@@ -92,8 +93,8 @@ qs --fetch-db          # list what's available
 qs --fetch-db kfz      # download kfz.yaml into data/
 ```
 
-`cc.yaml`/`cc.xlsx` are here too, so they can be restored the same way if
-ever deleted by accident. Excel sources live under
+`cc.yaml`/`cc.xlsx` and `ascii.yaml` are here too, so they can be restored
+the same way if ever deleted by accident. Excel sources live under
 [community-data/xlsx/](community-data/xlsx).
 
 ## License
