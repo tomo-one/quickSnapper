@@ -29,8 +29,9 @@ Grab the ZIP for your platform from the [Releases](../../releases) page:
    ./install.sh       (macOS/Linux)
    ```
 
-   It asks for the install location (platform default, home-bin variant
-   or a custom path), optionally adds a PATH entry, and can create the
+   It asks for the install location (checking what already exists on
+   your machine to decide the default — see `docs/README.md` for the
+   exact priority — or a custom path), optionally adds a PATH entry, and can create the
    optional aliases `qsl`, `qse`, `qsd` — individually selectable. On an
    update it merges `config/quickSnapper.ini` instead of overwriting it,
    so your settings survive. Alternatively, set everything up by hand:
@@ -103,4 +104,4 @@ the same way if ever deleted by accident. Excel sources live under
 
 ---
 
-Version 0.10.1 — TOMO
+Version 0.10.2 — TOMO
