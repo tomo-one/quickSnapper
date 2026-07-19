@@ -1,0 +1,780 @@
+# ============================================================
+#  tz.yaml  -  Personal information database
+#
+#  Edit with any text editor or quickSnapper.
+#
+#  Conventions (see also qs_data.toml / qs_data.ini):
+#    - Entries may sit in a section (accounts: ...) or directly at the top
+#      level without a section heading (name: TOMO). List the top-level
+#      ones with  qs _  and the categorized ones with  qs .
+#    - Masked fields:       use  _MASKED: <value>  instead of  _VALUE:
+#                           Hidden on display, but copied to the clipboard
+#                           correctly.
+#    - Variants (short forms): an extra key inside a field becomes 'field.variant',
+#      e.g. phone + short -> 'phone' and 'phone.short'.
+#    - Environment vars:    { _ENV: COMPUTERNAME }   -> value from os.environ.
+#                           '_ENV' may be a list: { _ENV: [COMPUTERNAME, HOSTNAME] }
+#                           (first one set wins); optional '_DEFAULT:' as fallback.
+#    - Built-in source:     { _SOURCE: hostname }  -> resolved portably via Python.
+#                           (hostname, fqdn, username/user, platform, cwd)
+#    - Internal references: "{accounts.ad_user}" or "{email}".
+#                           IMPORTANT: the quotes are required in YAML - an
+#                           unquoted {email} is parsed as a YAML mapping!
+#    - Lists:               ip: internal: [a, b]  -> 'ip.internal' shows [a, b],
+#                           'ip.internal[0]' / 'ip.internal[1]' single elements.
+#                           IMPORTANT: quote list elements on the command
+#                           line - qs "proxy.ip.internal[0]" - the quotes are
+#                           required, [] is expanded by the shell otherwise.
+#    - Nesting:             sections may nest (proxy: ip: internal: ...);
+#                           keys become 'proxy.ip.internal'.
+#    - Per-file settings:   an optional _LOCAL_SETTINGS section overrides the
+#                           global config for THIS file only (keys: clipboard,
+#                           show_masked, overwrite_warning, backup,
+#                           backup_generations). Put it at the very top. Values
+#                           for backup are none, implicit, all. Example:
+#                               _LOCAL_SETTINGS:
+#                                 clipboard: "yes"
+#                                 show_masked: "no"
+#                                 overwrite_warning: "yes"
+#                                 backup: implicit
+#                                 backup_generations: 3
+#    - Multi-line values:   YAML block scalar with  |
+# ============================================================
+
+
+# Try
+#        qs --db tz.yaml who
+#        qs --db tz.yaml hostname
+#        qs --db tz.yaml home
+
+# -- Local settings (for this DB only) ------------------------
+_LOCAL_SETTINGS:
+  clipboard: "no"
+  # show_masked: "no"
+  # implicit_set: "no"
+  # overwrite_warning: "yes"
+  # backup: implicit
+  # backup_generations: 3
+
+
+# -- Uncategorized --------------------------------------------
+db_name: tz.yaml
+db_created: '2026-07-16 08:06:23 +02:00'
+
+db_info: |
+
+  Information about this DB:
+      db name:          {db_name}
+      db created:       {db_created}
+who: "{db_info}"
+
+"UTC-12:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-12:00"
+  name_standard: International Date Line West
+  name_standard_short: IDLW
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: ["United States (Baker Island, Howland Island)"]
+  date_time_group: Y (yankee)
+"UTC-12": "{.UTC-12:00}"
+
+"UTC-11:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-11:00"
+  name_standard: Niue Time
+  name_standard_short: NUT
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: ["United States (American Samoa)", Niue]
+  date_time_group: X (xray)
+"UTC-11": "{.UTC-11:00}"
+
+"UTC-10:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-10:00"
+  name_standard: Hawaii-Aleutian Standard Time
+  name_standard_short: HST
+  name_dst: Hawaii-Aleutian Daylight Time
+  name_dst_short: HDT
+  dst_countries: ["United States (western Aleutian Islands)"]
+  none_dst_countries: ["United States (Hawaii)", "France (French Polynesia)", "New Zealand (Cook Islands)"]
+  date_time_group: W (whiskey)
+"UTC-10": "{.UTC-10:00}"
+
+"UTC-09:30":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-09:30"
+  name_standard: Marquesas Islands Time
+  name_standard_short: MART
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: ["France (Marquesas Islands)"]
+  date_time_group: none
+
+"UTC-09:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-09:00"
+  name_standard: Alaska Standard Time
+  name_standard_short: AKST
+  name_dst: Alaska Daylight Time
+  name_dst_short: AKDT
+  dst_countries: ["United States (Alaska, most)"]
+  none_dst_countries: ["France (Gambier Islands)"]
+  date_time_group: V (victor)
+"UTC-09": "{.UTC-09:00}"
+
+"UTC-08:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-08:00"
+  name_standard: Pacific Standard Time
+  name_standard_short: PST
+  name_dst: Pacific Daylight Time
+  name_dst_short: PDT
+  dst_countries: ["United States (California, Oregon, Washington)", "Canada (British Columbia, most)", "Mexico (Baja California)"]
+  none_dst_countries: ["United Kingdom (Pitcairn Islands)"]
+  date_time_group: U (uniform)
+"UTC-08": "{.UTC-08:00}"
+
+"UTC-07:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-07:00"
+  name_standard: Mountain Standard Time
+  name_standard_short: MST
+  name_dst: Mountain Daylight Time
+  name_dst_short: MDT
+  dst_countries: ["United States (Colorado, Montana, New Mexico, Utah, Wyoming)", "Canada (Alberta)", "Mexico (Chihuahua, Baja California Sur)"]
+  none_dst_countries: ["United States (Arizona, except Navajo Nation)", "Mexico (Sonora)"]
+  date_time_group: T (tango)
+"UTC-07": "{.UTC-07:00}"
+
+"UTC-06:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-06:00"
+  name_standard: Central Standard Time
+  name_standard_short: CST
+  name_dst: Central Daylight Time
+  name_dst_short: CDT
+  dst_countries: ["United States (Illinois, Texas, Wisconsin, Alabama)", "Canada (Manitoba)", "Chile (Easter Island)"]
+  none_dst_countries: ["Mexico (most)", Belize, "Costa Rica", "El Salvador", Guatemala, Honduras, Nicaragua]
+  date_time_group: S (sierra)
+"UTC-06": "{.UTC-06:00}"
+
+"UTC-05:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-05:00"
+  name_standard: Eastern Standard Time
+  name_standard_short: EST
+  name_dst: Eastern Daylight Time
+  name_dst_short: EDT
+  dst_countries: ["United States (New York, Florida, Georgia)", "Canada (Ontario, most)", Bahamas, Cuba]
+  none_dst_countries: [Colombia, Peru, "Ecuador (mainland)", Panama, Jamaica, Haiti, "Mexico (Quintana Roo)"]
+  date_time_group: R (romeo)
+"UTC-05": "{.UTC-05:00}"
+
+"UTC-04:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-04:00"
+  name_standard: Atlantic Standard Time
+  name_standard_short: AST
+  name_dst: Atlantic Daylight Time
+  name_dst_short: ADT
+  dst_countries: ["Canada (New Brunswick, Nova Scotia, Prince Edward Island)", "United Kingdom (Bermuda)", "Chile (mainland)"]
+  none_dst_countries: [Bolivia, Venezuela, Guyana, "Trinidad and Tobago", "Puerto Rico (USA)", "Dominican Republic"]
+  date_time_group: Q (quebec)
+"UTC-04": "{.UTC-04:00}"
+
+"UTC-03:30":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-03:30"
+  name_standard: Newfoundland Standard Time
+  name_standard_short: NST
+  name_dst: Newfoundland Daylight Time
+  name_dst_short: NDT
+  dst_countries: ["Canada (Newfoundland and southeastern Labrador)"]
+  none_dst_countries: []
+  date_time_group: none
+
+"UTC-03:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-03:00"
+  name_standard: Argentina Time
+  name_standard_short: ART
+  name_dst: none
+  name_dst_short: none
+  dst_countries: ["France (Saint Pierre and Miquelon)"]
+  none_dst_countries: [Argentina, Brazil, Uruguay, Paraguay, Suriname, "France (French Guiana)", "United Kingdom (Falkland Islands)", "Chile (Magallanes)"]
+  date_time_group: P (papa)
+"UTC-03": "{.UTC-03:00}"
+
+"UTC-02:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-02:00"
+  name_standard: Fernando de Noronha Time
+  name_standard_short: FNT
+  name_dst: Greenland Summer Time
+  name_dst_short: none
+  dst_countries: ["Denmark (Greenland, mainland/west coast)"]
+  none_dst_countries: ["Brazil (Fernando de Noronha)", "United Kingdom (South Georgia and the South Sandwich Islands)"]
+  date_time_group: O (oscar)
+"UTC-02": "{.UTC-02:00}"
+
+"UTC-01:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC-01:00"
+  name_standard: Azores Standard Time
+  name_standard_short: AZOT
+  name_dst: Azores Summer Time
+  name_dst_short: AZOST
+  dst_countries: ["Portugal (Azores)"]
+  none_dst_countries: ["Cape Verde"]
+  date_time_group: N (november)
+"UTC-01": "{.UTC-01:00}"
+
+"UTC+00:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+00:00"
+  name_standard: West European Time
+  name_standard_short: WET
+  name_dst: West European Summer/Daylight Time
+  name_dst_short: WEST/WEDT
+  dst_countries: [Faroe Islands, Guernsey]
+  none_dst_countries: [Burkina Faso, Gambia]
+  date_time_group: Z (zulu)
+"UTC+00": "{.UTC+00:00}"
+"UTC-00": "{.UTC+00:00}"
+
+"UTC+01:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+01:00"
+  name_standard: Central European Time
+  name_standard_short: CET
+  name_dst: Central European Summer/Daylight Time
+  name_dst_short: CEST/CEDT
+  dst_countries: [Germany, France, Italy, Spain, Poland, Austria, Netherlands, Sweden]
+  none_dst_countries: [Algeria, Tunisia]
+  date_time_group: A (alfa)
+"UTC+01": "{.UTC+01:00}"
+
+"UTC+02:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+02:00"
+  name_standard: Eastern European Time
+  name_standard_short: EET
+  name_dst: Eastern European Summer Time
+  name_dst_short: EEST
+  dst_countries: [Bulgaria, Cyprus, Estonia, Finland, Greece, Israel, Latvia, Lithuania, Moldova, Romania, Ukraine, Lebanon, Palestine]
+  none_dst_countries: [Egypt, Libya, "South Africa", Zimbabwe, Zambia, Malawi, Botswana, Namibia, Eswatini, Lesotho, Mozambique, Sudan, "South Sudan"]
+  date_time_group: B (bravo)
+"UTC+02": "{.UTC+02:00}"
+
+"UTC+03:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+03:00"
+  name_standard: Moscow Standard Time
+  name_standard_short: MSK
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: ["Russia (Moscow Time)", "Saudi Arabia", Iraq, Kuwait, Qatar, Bahrain, Yemen, Turkey, Jordan, Kenya, Ethiopia, Tanzania, Uganda, Somalia, Djibouti, Eritrea, Madagascar, Belarus, Syria]
+  date_time_group: C (charlie)
+"UTC+03": "{.UTC+03:00}"
+
+"UTC+03:30":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+03:30"
+  name_standard: Iran Standard Time
+  name_standard_short: IRST
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [Iran]
+  date_time_group: none
+
+"UTC+04:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+04:00"
+  name_standard: Gulf Standard Time
+  name_standard_short: GST
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: ["United Arab Emirates", Oman, Armenia, Azerbaijan, Georgia, Mauritius, Seychelles, "Russia (Samara Time)"]
+  date_time_group: D (delta)
+"UTC+04": "{.UTC+04:00}"
+
+"UTC+04:30":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+04:30"
+  name_standard: Afghanistan Time
+  name_standard_short: AFT
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [Afghanistan]
+  date_time_group: none
+
+"UTC+05:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+05:00"
+  name_standard: Pakistan Standard Time
+  name_standard_short: PKT
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [Pakistan, "Kazakhstan (western)", Tajikistan, Turkmenistan, Uzbekistan, Maldives, "Russia (Yekaterinburg Time)"]
+  date_time_group: E (echo)
+"UTC+05": "{.UTC+05:00}"
+
+"UTC+05:30":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+05:30"
+  name_standard: Indian Standard Time
+  name_standard_short: IST
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [India, "Sri Lanka"]
+  date_time_group: none
+
+"UTC+05:45":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+05:45"
+  name_standard: Nepal Time
+  name_standard_short: NPT
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [Nepal]
+  date_time_group: none
+
+"UTC+06:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+06:00"
+  name_standard: Bangladesh Standard Time
+  name_standard_short: BDT
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [Bangladesh, Bhutan, Kyrgyzstan, "Russia (Omsk Time)"]
+  date_time_group: F (foxtrot)
+"UTC+06": "{.UTC+06:00}"
+
+"UTC+06:30":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+06:30"
+  name_standard: Myanmar Time
+  name_standard_short: MMT
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [Myanmar, "Australia (Cocos Islands)"]
+  date_time_group: none
+
+"UTC+07:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+07:00"
+  name_standard: Indochina Time
+  name_standard_short: ICT
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [Thailand, Vietnam, Cambodia, Laos, "Indonesia (Sumatra, Java)", "Mongolia (western)", "Russia (Krasnoyarsk Time)"]
+  date_time_group: G (golf)
+"UTC+07": "{.UTC+07:00}"
+
+"UTC+08:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+08:00"
+  name_standard: China Standard Time
+  name_standard_short: CST
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [China, Philippines, Malaysia, Singapore, Taiwan, Brunei, "Hong Kong", Macau, "Australia (Western Australia)"]
+  date_time_group: H (hotel)
+"UTC+08": "{.UTC+08:00}"
+
+"UTC+08:45":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+08:45"
+  name_standard: Australian Central Western Standard Time
+  name_standard_short: ACWST
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: ["Australia (Eucla, Western Australia - unofficial)"]
+  date_time_group: none
+
+"UTC+09:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+09:00"
+  name_standard: Japan Standard Time
+  name_standard_short: JST
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [Japan, "South Korea", "North Korea", Palau, "East Timor", "Russia (Yakutsk Time)"]
+  date_time_group: I (india)
+"UTC+09": "{.UTC+09:00}"
+
+"UTC+09:30":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+09:30"
+  name_standard: Australian Central Standard Time
+  name_standard_short: ACST
+  name_dst: Australian Central Daylight Time
+  name_dst_short: ACDT
+  dst_countries: ["Australia (South Australia)"]
+  none_dst_countries: ["Australia (Northern Territory)"]
+  date_time_group: none
+
+"UTC+10:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+10:00"
+  name_standard: Australian Eastern Standard Time
+  name_standard_short: AEST
+  name_dst: Australian Eastern Daylight Time
+  name_dst_short: AEDT
+  dst_countries: ["Australia (New South Wales, Victoria, Tasmania, Australian Capital Territory)"]
+  none_dst_countries: ["Australia (Queensland)", "Papua New Guinea", "Russia (Vladivostok Time)", "United States (Guam)"]
+  date_time_group: K (kilo)
+"UTC+10": "{.UTC+10:00}"
+
+"UTC+10:30":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+10:30"
+  name_standard: Lord Howe Standard Time
+  name_standard_short: LHST
+  name_dst: Lord Howe Daylight Time
+  name_dst_short: LHDT
+  dst_countries: ["Australia (Lord Howe Island)"]
+  none_dst_countries: []
+  date_time_group: none
+
+"UTC+11:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+11:00"
+  name_standard: Solomon Islands Time
+  name_standard_short: SBT
+  name_dst: none
+  name_dst_short: none
+  dst_countries: ["Australia (Norfolk Island)"]
+  none_dst_countries: ["Solomon Islands", Vanuatu, "France (New Caledonia)", "Papua New Guinea (Bougainville)", "Russia (Magadan Time)"]
+  date_time_group: L (lima)
+"UTC+11": "{.UTC+11:00}"
+
+"UTC+12:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+12:00"
+  name_standard: New Zealand Standard Time
+  name_standard_short: NZST
+  name_dst: New Zealand Daylight Time
+  name_dst_short: NZDT
+  dst_countries: ["New Zealand (mainland, except Chatham Islands)"]
+  none_dst_countries: [Fiji, "Kiribati (Gilbert Islands)", "Marshall Islands", Nauru, Tuvalu, "Russia (Kamchatka Time)", "France (Wallis and Futuna)"]
+  date_time_group: M (mike)
+"UTC+12": "{.UTC+12:00}"
+
+"UTC+12:45":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+12:45"
+  name_standard: Chatham Islands Standard Time
+  name_standard_short: CHAST
+  name_dst: Chatham Islands Daylight Time
+  name_dst_short: CHADT
+  dst_countries: ["New Zealand (Chatham Islands)"]
+  none_dst_countries: []
+  date_time_group: none
+
+"UTC+13:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+13:00"
+  name_standard: Tonga Time
+  name_standard_short: TOT
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: [Tonga, Samoa, "Kiribati (Phoenix Islands)", "New Zealand (Tokelau)"]
+  date_time_group: none
+
+"UTC+14:00":
+  _VALUE: |
+
+    Normal: {.name_standard_short} ({.name_standard})
+    DST:    {.name_dst_short} ({.name_dst})
+    NATO:   {.date_time_group}
+
+    Use "{.utc}".name_standard_short to get the short name only.
+
+  utc: "UTC+14:00"
+  name_standard: Line Islands Time
+  name_standard_short: LINT
+  name_dst: none
+  name_dst_short: none
+  dst_countries: []
+  none_dst_countries: ["Kiribati (Line Islands)"]
+  date_time_group: none
+

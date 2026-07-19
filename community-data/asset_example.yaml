@@ -1,0 +1,380 @@
+# ============================================================
+#  created: 2026-07-15 (Demo/Dummy-Daten)
+#  records: 30
+# ============================================================
+
+# ================================================================
+#  asset.yaml – Demo/Dummy-Inventar für Heimnetzwerk & Geräte
+#
+#  Alle Werte (IP, MAC, Seriennummer, Kaufdatum) sind frei erfunden
+#  und dienen nur als Beispieldaten für quickSnapper.
+#
+#  Usage:
+#    qs --db asset.yaml FritzBox
+#    qs --db asset.yaml FritzBox.ip
+#    qs --db asset.yaml iPhone.serial
+#    qs --db asset.yaml --list
+# ================================================================
+
+
+# -- Netzwerk ---------------------------------------------------
+FritzBox:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Router
+  manufacturer: AVM
+  model:        "FRITZ!Box 7590 AX"
+  ip:           192.168.178.1
+  mac:          "9C:C7:A6:11:22:33"
+  serial:       AVM7590AX00123
+  location:     Flur
+  purchased:    "2022-04-10"
+  notes:        Hauptrouter mit DSL und WLAN 6
+
+FritzRepeater:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         WLAN-Repeater
+  manufacturer: AVM
+  model:        "FRITZ!Repeater 3000"
+  ip:           192.168.178.2
+  mac:          "9C:C7:A6:44:55:66"
+  serial:       AVMREP300456
+  location:     Obergeschoss Flur
+  purchased:    "2022-04-10"
+  notes:        Verstärkt WLAN im Obergeschoss
+
+NAS:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Netzwerkspeicher
+  manufacturer: Synology
+  model:        DS223
+  ip:           192.168.178.51
+  mac:          "00:11:32:AA:BB:CC"
+  serial:       SYNODS223X001
+  location:     Arbeitszimmer
+  purchased:    "2023-01-20"
+  notes:        Backup-Ziel für alle Geräte im Haushalt
+
+
+# -- Mobilgeräte / Computer --------------------------------------
+iPhone:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Smartphone
+  manufacturer: Apple
+  model:        iPhone 15 Pro
+  ip:           192.168.178.20
+  mac:          "3C:22:FB:AA:BB:CC"
+  serial:       F2LXJ3ABCD1E
+  location:     mobil
+  purchased:    "2023-10-05"
+  notes:        Hauptgerät, mit iCloud gekoppelt
+
+iPad:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Tablet
+  manufacturer: Apple
+  model:        "iPad Air (5. Gen.)"
+  ip:           192.168.178.21
+  mac:          "3C:22:FB:DD:EE:FF"
+  serial:       DMPXJ4EFGH2F
+  location:     Wohnzimmer
+  purchased:    "2022-06-12"
+  notes:        Für Streaming und Lesen
+
+MacBook:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Laptop
+  manufacturer: Apple
+  model:        "MacBook Pro 14\" M3"
+  ip:           192.168.178.22
+  mac:          "F0:18:98:11:22:AA"
+  serial:       C02XJ5ABCDEF
+  location:     Arbeitszimmer
+  purchased:    "2023-12-01"
+  notes:        Hauptarbeitsgerät
+
+MacBook_Air:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Laptop
+  manufacturer: Apple
+  model:        "MacBook Air 13\" M2"
+  ip:           192.168.178.23
+  mac:          "F0:18:98:33:44:BB"
+  serial:       C02YJ6GHIJKL
+  location:     mobil
+  purchased:    "2022-08-20"
+  notes:        Zweitgerät für unterwegs
+
+Laptop:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Laptop
+  manufacturer: Lenovo
+  model:        ThinkPad X1 Carbon Gen 11
+  ip:           192.168.178.24
+  mac:          "00:1A:2B:55:66:77"
+  serial:       PF3ABCDEF123
+  location:     Arbeitszimmer
+  purchased:    "2023-05-15"
+  notes:        Für Windows-only Software
+
+Apple_Watch:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Smartwatch
+  manufacturer: Apple
+  model:        Apple Watch Series 9
+  ip:           192.168.178.25
+  mac:          "A4:D1:8C:77:88:99"
+  serial:       H9PXJ7KLMNOP
+  location:     mobil
+  purchased:    "2023-10-05"
+  notes:        Fitness-Tracking, gekoppelt mit iPhone
+
+Samsung_Tablet:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Tablet
+  manufacturer: Samsung
+  model:        Galaxy Tab S9
+  ip:           192.168.178.64
+  mac:          "38:AA:3C:12:34:56"
+  serial:       RFAB123456CD
+  location:     mobil
+  purchased:    "2023-09-01"
+  notes:        Android-Tablet für die Kinder
+
+Kindle:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         E-Book-Reader
+  manufacturer: Amazon
+  model:        "Kindle Paperwhite (11. Gen.)"
+  ip:           192.168.178.62
+  mac:          "F0:81:73:AA:11:22"
+  serial:       G090AB1234CD
+  location:     mobil
+  purchased:    "2022-01-10"
+  notes:        WLAN-only, kein Mobilfunk
+
+AirPods:
+  _VALUE:       "{.manufacturer} {.model}"
+  type:         Kopfhörer
+  manufacturer: Apple
+  model:        "AirPods Pro (2. Gen.)"
+  bluetooth_id: "88:63:DF:11:22:33"
+  serial:       H9QXJ8QRSTUV
+  location:     mobil
+  purchased:    "2023-02-14"
+  notes:        Nur Bluetooth, keine eigene IP
+
+
+# -- Unterhaltung -------------------------------------------------
+Smart_TV:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Smart TV
+  manufacturer: LG
+  model:        OLED55C3
+  ip:           192.168.178.30
+  mac:          "A8:23:FE:12:34:56"
+  serial:       LGC3TV004455
+  location:     Wohnzimmer
+  purchased:    "2023-02-18"
+  notes:        webOS, unterstützt AirPlay
+
+Spielekonsole:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Spielekonsole
+  manufacturer: Sony
+  model:        PlayStation 5 Slim
+  ip:           192.168.178.60
+  mac:          "7C:BB:8A:12:34:56"
+  serial:       PS5DIGI009988
+  location:     Wohnzimmer
+  purchased:    "2023-11-11"
+  notes:        Digital Edition
+
+Nintendo_Switch:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Spielekonsole
+  manufacturer: Nintendo
+  model:        Switch OLED
+  ip:           192.168.178.61
+  mac:          "98:B6:E9:AA:BB:CC"
+  serial:       XKW10012345
+  location:     Wohnzimmer
+  purchased:    "2022-03-04"
+  notes:        Auch im Handheld-Modus genutzt
+
+Sonos_Speaker:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Lautsprecher
+  manufacturer: Sonos
+  model:        "Sonos One (Gen 2)"
+  ip:           192.168.178.63
+  mac:          "5C:AA:FD:11:22:33"
+  serial:       SONOS1GEN2001
+  location:     Küche
+  purchased:    "2021-09-15"
+  notes:        Teil des Multiroom-Audio-Setups
+
+Amazon_Echo:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Smart Speaker
+  manufacturer: Amazon
+  model:        "Echo Dot (5. Gen.)"
+  ip:           192.168.178.31
+  mac:          "68:37:E9:AA:11:22"
+  serial:       G000AB1234567890
+  location:     Küche
+  purchased:    "2022-11-24"
+  notes:        Alexa-Sprachsteuerung
+
+Google_Nest_Mini:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Smart Speaker
+  manufacturer: Google
+  model:        "Nest Mini (2. Gen.)"
+  ip:           192.168.178.32
+  mac:          "F4:F5:D8:33:44:55"
+  serial:       1234NESTMINI02
+  location:     Schlafzimmer
+  purchased:    "2021-07-09"
+  notes:        Google Assistant
+
+
+# -- Smart Home ---------------------------------------------------
+Hue_Bridge:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Zigbee-Bridge
+  manufacturer: Philips Hue
+  model:        Bridge (2. Gen.)
+  ip:           192.168.178.40
+  mac:          "00:17:88:AA:BB:CC"
+  serial:       HUEBRIDGE0099
+  location:     Wohnzimmer
+  purchased:    "2020-12-05"
+  notes:        Verbindet alle Hue-Lampen per Zigbee
+
+LED_Lampe_Wohnzimmer:
+  _VALUE:       "{.manufacturer} {.model} (über {.bridge})"
+  type:         Smart-Lampe
+  manufacturer: Philips Hue
+  model:        White & Color Ambiance E27
+  bridge:       "{Hue_Bridge.ip}"
+  location:     Wohnzimmer
+  purchased:    "2020-12-05"
+  notes:        Kein eigenes WLAN, läuft über die Hue Bridge
+
+LED_Lampe_Schlafzimmer:
+  _VALUE:       "{.manufacturer} {.model} (über {.bridge})"
+  type:         Smart-Lampe
+  manufacturer: Philips Hue
+  model:        White Ambiance E14
+  bridge:       "{Hue_Bridge.ip}"
+  location:     Schlafzimmer
+  purchased:    "2021-02-18"
+  notes:        Warmweißes Licht, dimmbar
+
+LED_Lampe_Kueche:
+  _VALUE:       "{.manufacturer} {.model} (über {.bridge})"
+  type:         Smart-Lampe
+  manufacturer: Philips Hue
+  model:        White & Color Ambiance GU10
+  bridge:       "{Hue_Bridge.ip}"
+  location:     Küche
+  purchased:    "2021-02-18"
+  notes:        Deckenspots, dreiteilig
+
+Smart_Steckdose:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Smart-Steckdose
+  manufacturer: TP-Link
+  model:        Tapo P110
+  ip:           192.168.178.41
+  mac:          "F0:A7:31:AA:BB:CC"
+  serial:       TAPOP110X0011
+  location:     Büro
+  purchased:    "2023-06-01"
+  notes:        Misst zusätzlich den Energieverbrauch
+
+Smart_Thermostat:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Heizungsthermostat
+  manufacturer: "tado°"
+  model:        Smart Thermostat X
+  ip:           192.168.178.52
+  mac:          "AC:BC:32:11:22:33"
+  serial:       TADOX0012345
+  location:     Wohnzimmer
+  purchased:    "2022-10-10"
+  notes:        Steuerung per App, pro Raum
+
+Ueberwachungskamera:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         IP-Kamera
+  manufacturer: Reolink
+  model:        Argus 4 Pro
+  ip:           192.168.178.53
+  mac:          "EC:71:DB:AA:11:22"
+  serial:       REOARGUS4P099
+  location:     Eingang
+  purchased:    "2023-08-22"
+  notes:        Akku- und Solarbetrieb
+
+Video_Tuerklingel:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Video-Türklingel
+  manufacturer: Ring
+  model:        Video Doorbell 4
+  ip:           192.168.178.65
+  mac:          "B0:72:BF:33:44:55"
+  serial:       RINGVD4X00234
+  location:     Haustür
+  purchased:    "2022-05-30"
+  notes:        Akkubetrieb, Aufzeichnung in der Ring-Cloud
+
+Rauchmelder:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Smart-Rauchmelder
+  manufacturer: Google Nest
+  model:        "Nest Protect (2. Gen.)"
+  ip:           192.168.178.66
+  mac:          "18:B4:30:11:AA:BB"
+  serial:       NESTPROT2X011
+  location:     Flur
+  purchased:    "2021-11-03"
+  notes:        WLAN-vernetzt, Batteriewarnung per App
+
+Wetterstation:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Wetterstation
+  manufacturer: Netatmo
+  model:        Netatmo Wetterstation
+  ip:           192.168.178.67
+  mac:          "70:EE:50:AA:BB:CC"
+  serial:       NETATMOWS0077
+  location:     Garten
+  purchased:    "2022-07-19"
+  notes:        Innen- und Außenmodul
+
+
+# -- Sonstiges ------------------------------------------------------
+Saugroboter:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Saugroboter
+  manufacturer: Roborock
+  model:        S8 Pro Ultra
+  ip:           192.168.178.42
+  mac:          "28:6C:07:AA:BB:CC"
+  serial:       ROBOS8PU00456
+  location:     Erdgeschoss
+  purchased:    "2023-03-27"
+  notes:        Kartierung und Absaugstation per App
+
+Drucker:
+  _VALUE:       "{.manufacturer} {.model} ({.ip})"
+  type:         Drucker
+  manufacturer: Brother
+  model:        HL-L2350DW
+  ip:           192.168.178.50
+  mac:          "30:05:5C:11:22:33"
+  serial:       BROHLL235099
+  location:     Arbeitszimmer
+  purchased:    "2021-04-14"
+  notes:        Laserdrucker mit WLAN
