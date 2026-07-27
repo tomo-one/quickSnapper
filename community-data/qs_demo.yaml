@@ -1,0 +1,169 @@
+# ============================================================
+#  main.yaml  -  Personal information database
+#
+#  Edit with any text editor or quickSnapper.
+#
+#  Conventions (see also main.toml / main.ini):
+#    - Entries may sit in a section (accounts: ...) or directly at the top
+#      level without a section heading (name: TOMO). List the top-level
+#      ones with  qs _  and the categorized ones with  qs .
+#    - Masked fields:       use  _MASKED: <value>  instead of  _VALUE:
+#                           Hidden on display, but copied to the clipboard
+#                           correctly.
+#    - Variants (short forms): an extra key inside a field becomes 'field.variant',
+#      e.g. phone + short -> 'phone' and 'phone.short'.
+#    - Environment vars:    { _ENV: COMPUTERNAME }   -> value from os.environ.
+#                           '_ENV' may be a list: { _ENV: [COMPUTERNAME, HOSTNAME] }
+#                           (first one set wins); optional '_DEFAULT:' as fallback.
+#    - Built-in source:     { _SOURCE: hostname }  -> resolved portably via Python.
+#                           (hostname, fqdn, username/user, platform, cwd)
+#    - Internal references: "{accounts.ad_user}" or "{email}".
+#                           IMPORTANT: the quotes are required in YAML - an
+#                           unquoted {email} is parsed as a YAML mapping!
+#    - Lists:               ip: internal: [a, b]  -> 'ip.internal' shows [a, b],
+#                           'ip.internal[0]' / 'ip.internal[1]' single elements.
+#                           IMPORTANT: quote list elements on the command
+#                           line - qs "proxy.ip.internal[0]" - the quotes are
+#                           required, [] is expanded by the shell otherwise.
+#    - Nesting:             sections may nest (proxy: ip: internal: ...);
+#                           keys become 'proxy.ip.internal'.
+#    - Per-file settings:   an optional _LOCAL_SETTINGS section overrides the
+#                           global config for THIS file only (keys: clipboard,
+#                           show_masked, overwrite_warning, backup,
+#                           backup_generations). Put it at the very top. Values
+#                           for backup are none, implicit, all. Example:
+#                               _LOCAL_SETTINGS:
+#                                 clipboard: "yes"
+#                                 show_masked: "no"
+#                                 overwrite_warning: "yes"
+#                                 backup: implicit
+#                                 backup_generations: 3
+#    - Multi-line values:   YAML block scalar with  |
+# ============================================================
+
+
+# Try
+#        qs --db main.yaml who
+#        qs --db main.yaml hostname
+#        qs --db main.yaml home
+
+# -- Local settings (for this DB only) ------------------------
+_LOCAL_SETTINGS:
+  # clipboard: "yes"
+  # show_masked: "no"
+  # implicit_set = "no"
+  # overwrite_warning: "yes"
+  # backup: implicit
+  # backup_generations: 3
+
+
+# -- Uncategorized --------------------------------------------
+db_name: qs_demo.yaml
+db_created: "2026-07-04 10:47:21 +02:00"
+db_info: |
+
+  Information about this DB: 
+      db name:          {db_name}
+      db created:       {db_created}
+
+      hostname:         {hostname}
+      username:         {username}
+      homedirectory:    {home}
+      
+who: "{db_info}"      
+
+# List all uncategorized entries: 'qs --data qs_demo _'
+hostname:
+  # env first (Windows: COMPUTERNAME), otherwise portable via source.
+  # source values: hostname, fqdn, username/user, platform, cwd
+  _ENV: [COMPUTERNAME, HOSTNAME, HOST]
+  _SOURCE: hostname
+
+username:
+  _ENV: [USERNAME, USER]
+  _DEFAULT: "Username not found in environment!"
+
+home:
+  _ENV: [USERPROFILE, HOME]
+  _DEFAULT: "Home directory not found in environment!"
+
+name: TOMO
+email: tomo@example.net
+phone: "+49 123 4567890"      # Phone number without spaces: 'qs phone --trim'
+
+
+# -- Categorized: accounts --------------------------------------------
+# List all entries in this category: 'qs --db qs_demo accounts.'
+accounts:
+  ad_user: tomo@TOMO.ONE
+  intranet: tomo.one
+
+# -- Masked (hidden) data ---------------------------------------------
+# Show it masked (hidden in terminal): 'qs --data qs_demo company_id'
+# Show it unmasked (clear in terminal): 'qs --data qs_demo company_id --show'
+company_id:
+  _MASKED: "99887766"
+
+
+# -- Internet proxy -------------------------------------------
+proxy:
+  # A reference to another entry in this YAML. In this example to the uncategorized entry 'email'.
+  # _VALUE is necessary because there are multiple entries in the same level.
+  user:
+    _VALUE: "{email}"
+
+    # An encrypted string. Encrypted with passphrase 123456. Use a better password for your data than in this example.
+    # To read it use 'qs --data qs_demo proxy.user.passwd'. It will be shown masked in terminal.
+    # Use 'qs --data qs_demo proxy.user.passwd --show' to show it unmasked. Be careful with this.
+    passwd: "ENC:gAAAAABqTo-W_nxLs22itj1LvvOOBhdqp3II0xkjkFwdGMCFNGogGt2O2YOY4JzdstznRxHcyh4oTcB51d0vjdUyTWJJmBsz12TR-7cpPWmNFqYkbngRru4="
+
+    # Same string encrypted with same passphrase 123456 but encrypted string is different. quickSnapper uses salted encryption.
+    # Try 'qs --data qs_demo proxy.user.passwd_2 --show' to check it.
+    passwd_2:     # passwd_2 has  second (multiple) entries, so _VALUE is necessary.
+      _VALUE: "ENC:gAAAAABqTo_fdhxUpFATlSfyHN_SzCLzMH142U82koFm0Ji5_uRU4YLyw_DdXmMnsZ693ir4Bi5X_G5L4QoS6GJmc1wwtGO5w9X_JG4qZtuWlAu1UAUK1EY="
+      hint: "Something with quickSnapper and encryption"
+
+  # IMPORTANT NOTE: references to ENC: values are NOT auto-decrypted!
+
+  # BTW: you can use the encrytion function directly at the command line without storing in a database.
+  # Try 'qs -e' for interactive encryption (recommended) or 'qs -e "String to encrypt"'. The latter is not recommended
+  # because it is saved in history.
+
+  # For decryption try 'qs -d "gAAAAABqTpYiheSDFvZmvkiK1NIKIPQ3NA2aK31ZF3VrIe6GlU0Jvf-RGz88D98b4FPN_nQwgyPMv3BL5lfnJv6JIZ3OW2FBro8Fa1r-TCc-zbb3KPXzeCI="'.
+  # with the example password 123456. The prefix "ENC:" is not necessary.
+
+  # Nested subsection (second and third level) - 'internal' has a list of values:
+  ip:
+  # 'qs --data qs_demo proxy.ip.internal' shows [10.10.10.10, 11.11.11.11],
+  # 'qs --data qs_demo "proxy.ip.internal[0]"' the single element 10.10.10.10 (quotes required!).
+    internal: [10.10.10.10, 11.11.11.11]
+    external: 21.21.21.21
+  port: 9999
+  # A reference to a value in the same section/category (starting with a dot).
+  pac: "http://proxy.int:{.port}"
+  # To another level AND list element in the same category. Starting with a dot as well.
+  pac_ip: "http://{.ip.internal[0]}:{.port}"
+
+
+# -- Colors example ---------------------------------------------------
+colors:
+  dunkelblau: "#44546A"
+  dunkelblau.rgb: [68,84,106]
+  mittelblau: "#5A7393"
+  mittelblau.rgb: [90,115,147]
+  dunkelgrau: "#595959"
+  dunkelgrau.rgb: [89,89,89]
+
+
+# -- IT / hardware example --------------------------------------------
+it:
+  laptop: Yoga X1
+  asset_tag: "0047110815"
+
+
+# -- SSH example for public keys --------------------------------------------
+ssh:
+  server-1:
+    _MASKED: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEtFUEwhLU0APTNHMO5aiFTIKy1Av9hmfTwf2CcJeci5
+  server-2:
+    _MASKED: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFb38vI7SBHzNf+3cgi1xohckp2x0N75SWMpFeKkc7qX     # Just a dummy key.
