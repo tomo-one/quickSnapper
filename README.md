@@ -1,4 +1,5 @@
 # quickSnapper
+v0.13.0
 
 A small personal information lookup tool for the command line.
 The snippets you need every day — employee ID, credentials, proxy
@@ -101,7 +102,3 @@ the same way if ever deleted by accident. Excel sources live under
 ## License
 
 [MIT](LICENSE) — for the binary distribution in this repository.
-
----
-
-Version 0.10.2 — TOMO
