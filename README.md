@@ -1,5 +1,5 @@
 # quickSnapper
-v0.14.0
+v0.14.1
 
 A small personal information lookup tool for the command line.
 The snippets you need every day — employee ID, credentials, proxy
